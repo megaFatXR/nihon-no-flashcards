@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-dom";
 import FlashcardPage from "./pages/FlashcardPage";
 import WordListPage from "./pages/WordListPage";
 import ThemeSwitcher from "./components/ThemeSwitcher";
@@ -32,8 +32,14 @@ const App = () => {
       <GlobalStyles />
       <Router>
         <nav className="main-nav">
-          <Link className="main-nav-link" to="/">Flashcards</Link>
-          <Link className="main-nav-link" to="/list">Word List</Link>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "main-nav-link active" : "main-nav-link"
+            }
+           to="/">Flashcards</NavLink>
+          <NavLink className={({ isActive }) =>
+              isActive ? "main-nav-link active" : "main-nav-link"
+            } to="/list">List</NavLink>
           <ThemeSwitcher theme={theme} toggleTheme={toggleTheme} />
         </nav>
         <Routes>

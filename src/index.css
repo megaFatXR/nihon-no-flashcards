@@ -14,11 +14,13 @@ code {
 }
 
 .react-card-flip{
-  width: 350px;
-  height: 500px;
+  max-width: 350px;
+  width: 77%;
+  height: 70vh;
+  max-height: 500px;
   margin: 0 auto;
   overflow: visible;
-  padding: 105px;
+  padding: 48px 32px;
 }
 
 .flip-card-front,
@@ -58,3 +60,21 @@ code {
   background: #ccc;
 }
 
+.swiper-slide {
+  height: 90vh!important;
+  display: flex!important;
+  flex-direction: column!important;
+  justify-content: center!important;
+  margin-right: 50px!important;
+}
+
+@media only screen and (max-width: 600px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none!important;
+  }
+}
+
+.card-list {
+  /* display: none; */
+}
