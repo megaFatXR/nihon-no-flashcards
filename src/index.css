@@ -45,6 +45,7 @@ code {
   bottom: 0;
   display:flex;
   justify-content: center;
+  z-index: 9;
 }
 
 .main-nav-link {
