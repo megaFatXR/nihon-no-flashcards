@@ -1,30 +1,11 @@
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
-import ReactCardFlip from "react-card-flip";
+import Flashcard from "../components/Flashcard";
 import "swiper/css";
 import "swiper/css/navigation";
 import { useSelectedWords } from "../context/SelectedWordsContext";
 import words from "../data/words.json";
-
-const FlipCard = ({ frontContent, backContent }) => {
-  const [isFlipped, setIsFlipped] = useState(false);
-
-  const toggleFlip = () => {
-    setIsFlipped((prev) => !prev);
-  };
-
-  return (
-    <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-      <div className="flip-card-front" onClick={toggleFlip}>
-        {frontContent}
-      </div>
-      <div className="flip-card-back" onClick={toggleFlip}>
-        {backContent}
-      </div>
-    </ReactCardFlip>
-  );
-};
 
 const FlashcardPage = () => {
   const { selectedWords } = useSelectedWords();
@@ -45,30 +26,7 @@ const FlashcardPage = () => {
         <Swiper modules={[Navigation]} navigation spaceBetween={50} slidesPerView={1}>
           {filteredWords.map((word, index) => (
             <SwiperSlide key={index}>
-              <FlipCard
-                className="flip-card"
-                frontContent={
-                  <img
-                    src={word.image || "default-image.jpg"}
-                    alt="Front"
-                    style={{ width: "100%", height: "auto" }}
-                  />
-                }
-                backContent={
-                  <div>
-                    <h2>{word.word || word.adjective || word.noun || word.suruForm}</h2>
-                    {word.forms && (
-                      <ul className="card-list">
-                        {Object.entries(word.forms).map(([key, value]) => (
-                          <li key={key}>
-                            <strong>{key}:</strong> {value}
-                          </li>
-                        ))}
-                      </ul>
-                    )}
-                  </div>
-                }
-              />
+              <Flashcard word={word} />
             </SwiperSlide>
           ))}
         </Swiper>

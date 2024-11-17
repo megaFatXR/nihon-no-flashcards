@@ -4,6 +4,7 @@ import FlashcardPage from "./pages/FlashcardPage";
 import WordListPage from "./pages/WordListPage";
 import ThemeSwitcher from "./components/ThemeSwitcher";
 import { ThemeProvider } from "styled-components";
+import { useTheme } from "./hooks/useTheme";
 import GlobalStyles from "./styles/GlobalStyles";
 
 const lightTheme = {
@@ -21,11 +22,7 @@ const darkTheme = {
 };
 
 const App = () => {
-  const [theme, setTheme] = useState("light");
-
-  const toggleTheme = () => {
-    setTheme((prev) => (prev === "light" ? "dark" : "light"));
-  };
+  const { theme, toggleTheme } = useTheme(); // Use the hook
 
   return (
     <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>

@@ -2,6 +2,7 @@
   "verbs": [
     {
       "word": "いきます",
+      "type": "verb",
       "meaning": "to go",
       "image": "assets/ikimasu.jpg",
       "forms": {
@@ -15,6 +16,7 @@
     },
     {
       "word": "かけます",
+      "type": "verb",
       "meaning": "to write",
       "image": "assets/kakemasu.jpg",
       "forms": {
@@ -28,6 +30,7 @@
     },
     {
       "word": "いいます",
+      "type": "verb",
       "meaning": "to say",
       "image": "assets/iimasu.jpg",
       "forms": {
@@ -41,6 +44,7 @@
     },
     {
       "word": "すいます",
+      "type": "verb",
       "meaning": "to smoke",
       "image": "assets/suimasu.jpg",
       "forms": {
@@ -54,6 +58,7 @@
     },
     {
       "word": "たちます",
+      "type": "verb",
       "meaning": "to stand",
       "image": "assets/tachimasu.jpg",
       "forms": {
@@ -67,6 +72,7 @@
     },
     {
       "word": "おります",
+      "type": "verb",
       "meaning": "to get off",
       "image": "assets/orimasu.jpg",
       "forms": {
@@ -80,6 +86,7 @@
     },
     {
       "word": "まちます",
+      "type": "verb",
       "meaning": "to wait",
       "image": "assets/machimasu.jpg",
       "forms": {
@@ -93,6 +100,7 @@
     },
     {
       "word": "ふります",
+      "type": "verb",
       "meaning": "to fall",
       "image": "assets/furimasu.jpg",
       "forms": {
@@ -106,6 +114,7 @@
     },
     {
       "word": "わかります",
+      "type": "verb",
       "meaning": "to understand",
       "image": "assets/wakarimasu.jpg",
       "forms": {
@@ -119,8 +128,9 @@
     },
     {
       "word": "がんばります",
+      "type": "verb",
       "meaning": "to do one's best",
-      "image": "assets/",
+      "image": "assets/ganbate.jpg",
       "forms": {
         "shortForm": "がんばる",
         "past": "がんばった",
@@ -133,7 +143,9 @@
   ],
   "adjectives": [
     {
-      "adjective": "おいしい (delicious)",
+      "word": "おいしい",
+      "type": "adjective",
+      "image": "assets/oishii.jpg",
       "forms": {
         "shortForm": "おいしい",
         "past": "おいしかった",
@@ -143,17 +155,12 @@
       }
     }
   ],
-  "nouns": [
-    {
-      "noun": "ねこ (cat)",
-      "image": "assets/"
-    }
-  ],
   "suruMeishi": [
     {
-      "noun": "べんきょう (study)",
+      "word": "べんきょう",
+      "type": "suru",
       "suruForm": "べんきょうする",
-      "image": "assets/"
+      "image": "assets/benkiou.jpg"
     }
   ]
 }

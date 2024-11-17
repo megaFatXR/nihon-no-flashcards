@@ -1,9 +1,6 @@
 import React, { useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper";
-import "swiper/css";
-import "swiper/css/navigation";
-import words from "../data/words.json";
+import ReactCardFlip from "react-card-flip";
+import './FlashcardStyles.css';
 
 const FlipCard = ({ frontContent, backContent }) => {
   const [isFlipped, setIsFlipped] = useState(false);
@@ -13,57 +10,48 @@ const FlipCard = ({ frontContent, backContent }) => {
   };
 
   return (
-    <div className="flip-card" onClick={toggleFlip}>
-      <div className={`flip-card-inner ${isFlipped ? "flipped" : ""}`}>
-        <div className="flip-card-front">{frontContent}</div>
-        <div className="flip-card-back">{backContent}</div>
+    <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
+      <div className="flip-card-front" onClick={toggleFlip}>
+        {frontContent}
       </div>
-    </div>
+      <div className="flip-card-back" onClick={toggleFlip}>
+        {backContent}
+      </div>
+    </ReactCardFlip>
   );
 };
 
-const FlashcardPage = () => {
-  const allWords = Object.values(words).flat(); // Flatten all categories for this example
-
+const Flashcard = ({word}) => {
+  console.log(word)
   return (
-    <div className="flashcard-container">
-      {allWords.length === 0 ? (
-        <p>No flashcards available.</p>
-      ) : (
-        <Swiper modules={[Navigation]} navigation spaceBetween={50} slidesPerView={1}>
-          {allWords.map((word, index) => (
-            <SwiperSlide key={index}>
-              <FlipCard
-                frontContent={
-                  <img
-                    src={word.image || "default-image.jpg"}
-                    alt="Front"
-                    style={{ width: "100%", height: "auto" }}
-                  />
-                }
-                backContent={
-                  <div>
-                    <h2  className="card-list">
-                      {word.word || word.adjective || word.noun || word.suruForm} / {word.forms.shortForm}
-                    </h2>
-                    {word.forms && (
-                      <ul className="card-list">
-                        {Object.entries(word.forms).map(([key, value]) => (
-                          <li key={key}>
-                            <strong>{key}:</strong> {value}
-                          </li>
-                        ))}
-                      </ul>
-                    )}
-                  </div>
-                }
-              />
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      )}
-    </div>
+    <FlipCard
+      className="flip-card"
+      frontContent={
+        <img
+          src={word.image || "default-image.jpg"}
+          alt="Front"
+          style={{ width: "100%", height: "auto" }}
+        />
+      }
+      backContent={
+        <div>
+          <h2 className="title">
+            <span className=""></span>
+            {word.word}
+          </h2>
+          {word.forms && (
+            <ul className="card-list">
+              {Object.entries(word.forms).map(([key, value]) => (
+                <li key={key}>
+                  <strong>{key}:</strong> {value}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      }
+    />
   );
 };
 
-export default FlashcardPage;
+export default Flashcard;

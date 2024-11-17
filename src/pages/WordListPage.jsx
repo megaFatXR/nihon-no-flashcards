@@ -4,14 +4,31 @@ import { useSelectedWords } from "../context/SelectedWordsContext";
 import words from "../data/words.json";
 
 const Container = styled.div`
+  padding: 116px 22px 0;
+  position: relative;
+  height: 84vh;
+  box-sizing: border-box;
+  overflow: scroll;
+}
+`;
+
+const InputContainer = styled.div`
+  width: 100%;
   padding: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  position: fixed;
+  top: 24px;
+  left: 0;
+  box-sizing: border-box;
 `;
 
 const SearchInput = styled.input`
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-  font-size: 16px;
+  width: 99%;
+  height: 48px;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 2px solid #111;
 `;
 
 const CategoryContainer = styled.div`
@@ -52,12 +69,14 @@ const WordListPage = () => {
 
   return (
     <Container>
-      <SearchInput
-        type="text"
-        placeholder="Search..."
-        value={searchTerm}
-        onChange={handleSearch}
-      />
+      <InputContainer>
+        <SearchInput
+          type="text"
+          placeholder="Search..."
+          value={searchTerm}
+          onChange={handleSearch}
+        />
+      </InputContainer>
       {Object.entries(filteredWords).map(([category, items]) => (
         <CategoryContainer key={category}>
           <CategoryTitle>
