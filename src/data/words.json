@@ -1,0 +1,159 @@
+{
+  "verbs": [
+    {
+      "word": "いきます",
+      "meaning": "to go",
+      "image": "assets/ikimasu.jpg",
+      "forms": {
+        "shortForm": "いく",
+        "past": "いった",
+        "negative": "いかない",
+        "pastNegative": "いかなかった",
+        "tePositive": "いくないで",
+        "teNegative": "いくないで"
+      }
+    },
+    {
+      "word": "かけます",
+      "meaning": "to write",
+      "image": "assets/kakemasu.jpg",
+      "forms": {
+        "shortForm": "かける",
+        "past": "かけた",
+        "negative": "かかない",
+        "pastNegative": "かかなかった",
+        "tePositive": "かけないで",
+        "teNegative": "かけないで"
+      }
+    },
+    {
+      "word": "いいます",
+      "meaning": "to say",
+      "image": "assets/iimasu.jpg",
+      "forms": {
+        "shortForm": "いう",
+        "past": "いった",
+        "negative": "いわない",
+        "pastNegative": "いわなかった",
+        "tePositive": "いわないで",
+        "teNegative": "いわないで"
+      }
+    },
+    {
+      "word": "すいます",
+      "meaning": "to smoke",
+      "image": "assets/suimasu.jpg",
+      "forms": {
+        "shortForm": "すう",
+        "past": "すった",
+        "negative": "すわない",
+        "pastNegative": "すわなかった",
+        "tePositive": "すわないで",
+        "teNegative": "すわないで"
+      }
+    },
+    {
+      "word": "たちます",
+      "meaning": "to stand",
+      "image": "assets/tachimasu.jpg",
+      "forms": {
+        "shortForm": "たつ",
+        "past": "たった",
+        "negative": "たたない",
+        "pastNegative": "たたなかった",
+        "tePositive": "たたないで",
+        "teNegative": "たたないで"
+      }
+    },
+    {
+      "word": "おります",
+      "meaning": "to get off",
+      "image": "assets/orimasu.jpg",
+      "forms": {
+        "shortForm": "おる",
+        "past": "おった",
+        "negative": "おらない",
+        "pastNegative": "おらなかった",
+        "tePositive": "おらないで",
+        "teNegative": "おらないで"
+      }
+    },
+    {
+      "word": "まちます",
+      "meaning": "to wait",
+      "image": "assets/machimasu.jpg",
+      "forms": {
+        "shortForm": "まつ",
+        "past": "まった",
+        "negative": "またない",
+        "pastNegative": "またなかった",
+        "tePositive": "またないで",
+        "teNegative": "またないで"
+      }
+    },
+    {
+      "word": "ふります",
+      "meaning": "to fall",
+      "image": "assets/furimasu.jpg",
+      "forms": {
+        "shortForm": "ふる",
+        "past": "ふった",
+        "negative": "ふらない",
+        "pastNegative": "ふらなかった",
+        "tePositive": "ふらないで",
+        "teNegative": "ふらないで"
+      }
+    },
+    {
+      "word": "わかります",
+      "meaning": "to understand",
+      "image": "assets/wakarimasu.jpg",
+      "forms": {
+        "shortForm": "わかる",
+        "past": "わかった",
+        "negative": "わからない",
+        "pastNegative": "わからなかった",
+        "tePositive": "わからないで",
+        "teNegative": "わからないで"
+      }
+    },
+    {
+      "word": "がんばります",
+      "meaning": "to do one's best",
+      "image": "assets/",
+      "forms": {
+        "shortForm": "がんばる",
+        "past": "がんばった",
+        "negative": "がんばらない",
+        "pastNegative": "がんばらなかった",
+        "tePositive": "がんばらないで",
+        "teNegative": "がんばらないで"
+      }
+    }
+  ],
+  "adjectives": [
+    {
+      "adjective": "おいしい (delicious)",
+      "forms": {
+        "shortForm": "おいしい",
+        "past": "おいしかった",
+        "negative": "おいしくない",
+        "pastNegative": "おいしくなかった",
+        "image": "assets/"
+      }
+    }
+  ],
+  "nouns": [
+    {
+      "noun": "ねこ (cat)",
+      "image": "assets/"
+    }
+  ],
+  "suruMeishi": [
+    {
+      "noun": "べんきょう (study)",
+      "suruForm": "べんきょうする",
+      "image": "assets/"
+    }
+  ]
+}
