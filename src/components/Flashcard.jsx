@@ -35,8 +35,8 @@ const Flashcard = ({word}) => {
       }
       backContent={
         <div>
-          <h2 className="title">
-            <span className=""></span>
+          <h2 className="card-title">
+            <span className={word.type}></span>
             {word.word}
           </h2>
           {word.forms && (

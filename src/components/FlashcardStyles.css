@@ -1,3 +1,26 @@
+.card-title span {
+  width: 28px;
+  height: 28px;
+  margin-right: 12px;
+  border-radius: 100%;
+  display: inline-block;
+  top: 2px;
+    position: relative;
+}
+
+.card-title span.verb  {
+  background-color: #13cb50;
+}
+
+.card-title span.adjective  {
+  background-color: #0076ff;
+}
+
+.card-title span.suru  {
+  background-color: orange;
+}
+
+
 .card-list {
-  display: none;
+  padding: 0;
 }

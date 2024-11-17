@@ -150,17 +150,19 @@
         "shortForm": "おいしい",
         "past": "おいしかった",
         "negative": "おいしくない",
-        "pastNegative": "おいしくなかった",
-        "image": "assets/"
+        "pastNegative": "おいしくなかった"
       }
     }
   ],
   "suruMeishi": [
     {
-      "word": "べんきょう",
+      "word": "べんきょうします",
       "type": "suru",
       "suruForm": "べんきょうする",
-      "image": "assets/benkiou.jpg"
+      "image": "assets/benkiou.jpg",
+      "forms": {
+        "shortForm": "べんきょうする"
+      }
     }
   ]
 }
