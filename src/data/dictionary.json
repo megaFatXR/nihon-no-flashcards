@@ -1,0 +1,491 @@
+{
+    "verbs": [
+      {
+        "verb": "行く",
+        "type": "verb",
+        "meaning": "to go",
+        "plain_form": "いく",
+        "long_form": "いきます",
+        "image": "assets/ikimasu.jpg",
+        "forms": {
+          "nai_form": "いかない",
+          "past_form": "いった",
+          "past_negative_form": "いかなかった",
+          "volitional_form": "いこう",
+          "te_form": "いって",
+          "de_form": "いかないで"
+        }
+      },
+      {
+        "verb": "聞く",
+        "type": "verb",
+        "meaning": "to listen",
+        "plain_form": "きく",
+        "long_form": "ききます",
+        "forms": {
+          "nai_form": "きかない",
+          "past_form": "きいた",
+          "past_negative_form": "きかなかった",
+          "volitional_form": "きこう",
+          "te_form": "きいて",
+          "de_form": "きかないで"
+        }
+      },
+      {
+        "verb": "読む",
+        "type": "verb",
+        "meaning": "to read",
+        "plain_form": "よむ",
+        "long_form": "よみます",
+        "forms": {
+          "nai_form": "よまない",
+          "past_form": "よんだ",
+          "past_negative_form": "よまなかった",
+          "volitional_form": "よもう",
+          "te_form": "よんで",
+          "de_form": "よまないで"
+        }
+      },
+      {
+        "verb": "吸う",
+        "type": "verb",
+        "meaning": "to smoke",
+        "plain_form": "すう",
+        "long_form": "すいます",
+        "image": "assets/suimasu.jpg",
+        "forms": {
+          "nai_form": "すわない",
+          "past_form": "すった",
+          "past_negative_form": "すわなかった",
+          "volitional_form": "すおう",
+          "te_form": "すって",
+          "de_form": "すわないで"
+        }
+      },
+      {
+        "verb": "話す",
+        "type": "verb",
+        "meaning": "to speak",
+        "plain_form": "はなす",
+        "long_form": "はなします",
+        "forms": {
+          "nai_form": "はなさない",
+          "past_form": "はなした",
+          "past_negative_form": "はなさなかった",
+          "volitional_form": "はなそう",
+          "te_form": "はなして",
+          "de_form": "はなさないで"
+        }
+      },
+      {
+        "verb": "取る",
+        "type": "verb",
+        "meaning": "to take a picture",
+        "plain_form": "とる",
+        "long_form": "とります",
+        "forms": {
+          "nai_form": "とらない",
+          "past_form": "とった",
+          "past_negative_form": "とらなかった",
+          "volitional_form": "とろう",
+          "te_form": "とって",
+          "de_form": "とらないで"
+        }
+      },
+      {
+        "verb": "切る",
+        "type": "verb",
+        "meaning": "to cut",
+        "plain_form": "きる",
+        "long_form": "きります",
+        "forms": {  
+          "nai_form": "きらない",
+          "past_form": "きった",
+          "past_negative_form": "きらなかった",
+          "volitional_form": "きろう",
+          "te_form": "きって",
+          "de_form": "きらないで"
+        }
+      },
+      {
+        "verb": "ある",
+        "type": "verb",
+        "meaning": "to exist (inanimate)",
+        "plain_form": "ある",
+        "long_form": "あります",
+        "forms": {
+          
+          "nai_form": "ない",
+          
+          "past_form": "あった",
+          "past_negative_form": "なかった",
+          "volitional_form": "あろう",
+          "te_form": "あって",
+          "de_form": "ないで"
+        }
+      },
+      {
+        "verb": "分かる",
+        "type": "verb",
+        "meaning": "to understand",
+        "plain_form": "わかる",
+        "long_form": "わかります",
+        "image": "assets/wakarimasu.jpg",
+        "forms": {
+          
+          "nai_form": "わからない",
+          
+          "past_form": "わかった",
+          "past_negative_form": "わからなかった",
+          "volitional_form": "わかろう",
+          "te_form": "わかって",
+          "de_form": "わからないで"
+        }
+      },
+      {
+        "verb": "待つ",
+        "type": "verb",
+        "meaning": "to wait",
+        "plain_form": "まつ",
+        "long_form": "まちます",
+        "forms": {
+          
+          "nai_form": "またない",
+          
+          "past_form": "まった",
+          "past_negative_form": "またなかった",
+          "volitional_form": "まとう",
+          "te_form": "まって",
+          "de_form": "またないで"
+        }
+      },
+      {
+        "verb": "頑張る",
+        "type": "verb",
+        "meaning": "to do one’s best",
+        "plain_form": "がんばる",
+        "long_form": "がんばります",
+        "image": "assets/ganbate.jpg",
+        "forms": {
+          
+          "nai_form": "がんばらない",
+          
+          "past_form": "がんばった",
+          "past_negative_form": "がんばらなかった",
+          "volitional_form": "がんばろう",
+          "te_form": "がんばって",
+          "de_form": "がんばらないで"
+        }
+      },
+      {
+        "verb": "入る",
+        "type": "verb",
+        "meaning": "to enter",
+        "plain_form": "はいる",
+        "long_form": "はいります",
+        "forms": {
+          
+          "nai_form": "はいらない",
+          
+          "past_form": "はいった",
+          "past_negative_form": "はいらなかった",
+          "volitional_form": "はいろう",
+          "te_form": "はいって",
+          "de_form": "はいらないで"
+        }
+      },
+      {
+        "verb": "置く",
+        "type": "verb",
+        "meaning": "to put",
+        "plain_form": "おく",
+        "long_form": "おきます",
+        "forms": {
+          
+          "nai_form": "おかない",
+          
+          "past_form": "おいた",
+          "past_negative_form": "おかなかった",
+          "volitional_form": "おこう",
+          "te_form": "おいて",
+          "de_form": "おかないで"
+        }
+      },
+      {
+        "verb": "出す",
+        "type": "verb",
+        "meaning": "to take out",
+        "plain_form": "だす",
+        "long_form": "だします",
+        "forms": {
+          "nai_form": "ださない",
+          "past_form": "だした",
+          "past_negative_form": "ださなかった",
+          "volitional_form": "だそう",
+          "te_form": "だして",
+          "de_form": "ださないで"
+        }
+      },
+      {
+        "verb": "違う",
+        "type": "verb",
+        "meaning": "to differ/be wrong",
+        "plain_form": "ちがう",
+        "long_form": "ちがいます",
+        "forms": {
+          
+          "nai_form": "ちがわない",
+          
+          "past_form": "ちがった",
+          "past_negative_form": "ちがわなかった",
+          "volitional_form": "ちがおう",
+          "te_form": "ちがって",
+          "de_form": "ちがわないで"
+        }
+      },
+      {
+        "verb": "降る",
+        "type": "verb",
+        "meaning": "to fall (rain, snow)",
+        "plain_form": "ふる",
+        "long_form": "ふります",
+        "forms": {
+          
+          "nai_form": "ふらない",
+          
+          "past_form": "ふった",
+          "past_negative_form": "ふらなかった",
+          "volitional_form": "ふろう",
+          "te_form": "ふって",
+          "de_form": "ふらないで"
+        }
+      },
+      {
+        "verb": "休む",
+        "type": "verb",
+        "meaning": "to rest",
+        "plain_form": "やすむ",
+        "long_form": "やすみます",
+        "forms": {
+          
+          "nai_form": "やすまない",
+          
+          "past_form": "やすんだ",
+          "past_negative_form": "やすまなかった",
+          "volitional_form": "やすもう",
+          "te_form": "やすんで",
+          "de_form": "やすまないで"
+        }
+      },
+      {
+        "verb": "会う",
+        "type": "verb",
+        "meaning": "to meet",
+        "plain_form": "あう",
+        "long_form": "あいます",
+        "forms": {
+          
+          "nai_form": "あわない",
+          
+          "past_form": "あった",
+          "past_negative_form": "あわなかった",
+          "volitional_form": "あおう",
+          "te_form": "あって",
+          "de_form": "あわないで"
+        }
+      },
+      {
+        "verb": "間に合う",
+        "type": "verb",
+        "meaning": "to be on time",
+        "plain_form": "まにあう",
+        "long_form": "まにあいます",
+        "forms": {
+          
+          "nai_form": "まにあわない",
+          
+          "past_form": "まにあった",
+          "past_negative_form": "まにあわなかった",
+          "volitional_form": "まにあおう",
+          "te_form": "まにあって",
+          "de_form": "まにあわないで"
+        }
+      }       
+    ],
+    "adjectives": [
+        {
+            "adjective": "おいしい",
+            "type": "adjective",
+            "meaning": "delicious",
+            "image": "assets/oishii.jpg",
+            "forms": {
+                "present_affirmative": "おいしいです",
+                "present_negative": "おいしくありません",
+                "past_affirmative": "おいしかったです",
+                "past_negative": "おいしくありませんでした",
+                "short_present_affirmative": "おいしい",
+                "short_present_negative": "おいしくない",
+                "short_past_affirmative": "おいしかった",
+                "short_past_negative": "おいしくなかった",
+                "conditional": "おいしければ"
+            }
+        },
+            {
+            "adjective": "まずい",
+            "type": "adjective",
+            "meaning": "not tasty",
+            "forms": {
+                "present_affirmative": "まずいです",
+                "present_negative": "まずくありません",
+                "past_affirmative": "まずかったです",
+                "past_negative": "まずくありませんでした",
+                "short_present_affirmative": "まずい",
+                "short_present_negative": "まずくない",
+                "short_past_affirmative": "まずかった",
+                "short_past_negative": "まずくなかった",
+                "conditional": "まずければ"
+            }
+        },
+            {
+            "adjective": "安い",
+            "type": "adjective",
+            "meaning": "cheap",
+            "forms": {
+                "present_affirmative": "やすいです",
+                "present_negative": "やすくありません",
+                "past_affirmative": "やすかったです",
+                "past_negative": "やすくありませんでした",
+                "short_present_affirmative": "やすい",
+                "short_present_negative": "やすくない",
+                "short_past_affirmative": "やすかった",
+                "short_past_negative": "やすくなかった",
+                "conditional": "やすければ"
+            }
+        },
+            {
+            "adjective": "高い",
+            "type": "adjective",
+            "meaning": "expensive",
+            "forms": {
+                "present_affirmative": "たかいです",
+                "present_negative": "たかくありません",
+                "past_affirmative": "たかかったです",
+                "past_negative": "たかくありませんでした",
+                "short_present_affirmative": "たかい",
+                "short_present_negative": "たかくない",
+                "short_past_affirmative": "たかかった",
+                "short_past_negative": "たかくなかった",
+                "conditional": "たかければ"
+            }
+        },
+            {
+            "adjective": "大きい",
+            "type": "adjective",
+            "meaning": "big",
+            "forms": {
+                "present_affirmative": "おおきいです",
+                "present_negative": "おおきくありません",
+                "past_affirmative": "おおきかったです",
+                "past_negative": "おおきくありませんでした",
+                "short_present_affirmative": "おおきい",
+                "short_present_negative": "おおきくない",
+                "short_past_affirmative": "おおきかった",
+                "short_past_negative": "おおきくなかった",
+                "conditional": "おおきければ"
+            }
+        },
+            {
+            "adjective": "小さい",
+            "type": "adjective",
+            "meaning": "small",
+            "forms": {
+                "present_affirmative": "ちいさいです",
+                "present_negative": "ちいさくありません",
+                "past_affirmative": "ちいさかったです",
+                "past_negative": "ちいさくありませんでした",
+                "short_present_affirmative": "ちいさい",
+                "short_present_negative": "ちいさくない",
+                "short_past_affirmative": "ちいさかった",
+                "short_past_negative": "ちいさくなかった",
+                "conditional": "ちいさければ"
+            }
+        }
+    ],
+    "surumeishi": [
+        {
+            "noun": "勉強",
+            "meaning": "to study",
+            "conjugations": {
+                "long_form": {
+                    "present_affirmative": "勉強します",
+                    "present_negative": "勉強しません",
+                    "past_affirmative": "勉強しました",
+                    "past_negative": "勉強しませんでした",
+                    "volitional": "勉強しましょう"
+                },
+                "short_form": {
+                    "present_affirmative": "勉強する",
+                    "present_negative": "勉強しない",
+                    "past_affirmative": "勉強した",
+                    "past_negative": "勉強しなかった",
+                    "conditional_affirmative": "勉強すれば",
+                    "conditional_negative": "勉強しなければ",
+                    "conversational": {
+                        "affirmative": "勉強すりゃー",
+                        "negative": "勉強しなきゃー"
+                    }
+                }
+            }
+        },
+        {
+            "noun": "買い物",
+            "meaning": "shopping",
+            "conjugations": {
+                "long_form": {
+                    "present_affirmative": "買い物します",
+                    "present_negative": "買い物しません",
+                    "past_affirmative": "買い物しました",
+                    "past_negative": "買い物しませんでした",
+                    "volitional": "買い物しましょう"
+                },
+                "short_form": {
+                    "present_affirmative": "買い物する",
+                    "present_negative": "買い物しない",
+                    "past_affirmative": "買い物した",
+                    "past_negative": "買い物しなかった",
+                    "conditional_affirmative": "買い物すれば",
+                    "conditional_negative": "買い物しなければ",
+                    "conversational": {
+                        "affirmative": "買い物すりゃー",
+                        "negative": "買い物しなきゃー"
+                    }
+                }
+            }
+        },
+        {
+            "noun": "料理",
+            "meaning": "cooking",
+            "conjugations": {
+                "long_form": {
+                    "present_affirmative": "料理します",
+                    "present_negative": "料理しません",
+                    "past_affirmative": "料理しました",
+                    "past_negative": "料理しませんでした",
+                    "volitional": "料理しましょう"
+                },
+                "short_form": {
+                    "present_affirmative": "料理する",
+                    "present_negative": "料理しない",
+                    "past_affirmative": "料理した",
+                    "past_negative": "料理しなかった",
+                    "conditional_affirmative": "料理すれば",
+                    "conditional_negative": "料理しなければ",
+                    "conversational": {
+                        "affirmative": "料理すりゃー",
+                        "negative": "料理しなきゃー"
+                    }
+                }
+            }
+        }
+    ]
+}

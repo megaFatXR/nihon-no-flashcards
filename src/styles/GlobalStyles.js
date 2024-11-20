@@ -15,7 +15,6 @@ const GlobalStyles = createGlobalStyle`
   }
   img {
     filter: invert(${(props) => {if (props.theme.background === '#111') {
-      console.log(props.theme.background);
       return .93
     } return 0}
   })

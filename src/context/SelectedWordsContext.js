@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from "react";
-import words from "../data/words.json";
+import words from "../data/dictionary.json";
 
 const SelectedWordsContext = createContext();
 
@@ -18,7 +18,7 @@ export const SelectedWordsProvider = ({ children }) => {
     Object.entries(words).forEach(([category, items]) => {
       initialSelection[category] = {};
       items.forEach((item) => {
-        const key = item.word || item.adjective || item.noun || item.suruForm;
+        const key = item.long_form || item.adjective || item.conjugations?.long_form.present_affirmative;
         initialSelection[category][key] = true;
       });
     });
@@ -43,7 +43,7 @@ export const SelectedWordsProvider = ({ children }) => {
   const toggleCategory = (category, items) => {
     const allSelected = Object.values(selectedWords[category] || {}).every(Boolean);
     const updatedCategory = items.reduce((acc, item) => {
-      const key = item.word || item.adjective || item.noun || item.suruForm;
+      const key = item.long_form || item.adjective || item.conjugations?.long_form.present_affirmative;
       acc[key] = !allSelected;
       return acc;
     }, {});

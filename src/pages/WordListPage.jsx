@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { useSelectedWords } from "../context/SelectedWordsContext";
-import words from "../data/words.json";
+import words from "../data/dictionary.json";
 
 const Container = styled.div`
   padding: 116px 22px 0;
@@ -56,7 +56,7 @@ const WordListPage = () => {
   // Filter words based on the search term
   const filteredWords = Object.entries(words).reduce((acc, [category, items]) => {
     const matchingItems = items.filter((item) => {
-      const key = item.word || item.adjective || item.noun || item.suruForm;
+      const key = item.long_form || item.adjective || item.conjugations?.long_form.present_affirmative;
       return key && key.includes(searchTerm); // Ensure the key exists and matches the search term
     });
     if (matchingItems.length > 0) acc[category] = matchingItems;
@@ -88,7 +88,7 @@ const WordListPage = () => {
             {category}
           </CategoryTitle>
           {items.map((item) => {
-            const key = item.word || item.adjective || item.noun || item.suruForm;
+            const key = item.long_form || item.adjective || item.conjugations?.long_form.present_affirmative;
             return (
               <WordItem key={key}>
                 <Checkbox

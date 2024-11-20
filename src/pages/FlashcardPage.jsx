@@ -5,15 +5,16 @@ import Flashcard from "../components/Flashcard";
 import "swiper/css";
 import "swiper/css/navigation";
 import { useSelectedWords } from "../context/SelectedWordsContext";
-import words from "../data/words.json";
+import words from "../data/dictionary.json";
 
 const FlashcardPage = () => {
   const { selectedWords } = useSelectedWords();
 
   // Filter words based on selectedWords context
   const filteredWords = Object.entries(selectedWords).flatMap(([category, keys]) =>
+    
     words[category]?.filter((item) => {
-      const key = item.word || item.adjective || item.noun || item.suruForm;
+      const key = item.long_form || item.adjective || item.conjugations?.long_form.present_affirmative;
       return keys[key];
     }) || []
   );

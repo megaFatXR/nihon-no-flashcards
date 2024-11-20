@@ -22,30 +22,95 @@ const FlipCard = ({ frontContent, backContent }) => {
 };
 
 const Flashcard = ({word}) => {
-  console.log(word)
   return (
     <FlipCard
       className="flip-card"
       frontContent={
-        <img
-          src={word.image || "default-image.jpg"}
-          alt="Front"
-          style={{ width: "100%", height: "auto" }}
-        />
+        <>
+          <img
+            src={word.image || "default-image.jpg"}
+            alt="Front"
+            style={{ width: "100%", height: "auto" }}
+          />
+          <h1 className="card-main-title">{word.meaning}</h1>
+        </>
       }
       backContent={
         <div>
           <h2 className="card-title">
             <span className={word.type}></span>
-            {word.word}
+            {word.long_form || word.adjective}
           </h2>
           {word.forms && (
             <ul className="card-list">
-              {Object.entries(word.forms).map(([key, value]) => (
-                <li key={key}>
-                  <strong>{key}:</strong> {value}
-                </li>
-              ))}
+              <li>
+                Short: <strong>{word.plain_form}</strong>
+              </li>
+              {Object.entries(word.forms).map(([key, value]) => {
+                if (key === 'nai_form') {
+                  return (
+                    <li key={key}>
+                      Nai: <strong>{value}</strong>
+                    </li>
+                )}
+                if (key === 'past_form') {
+                  return (
+                    <li key={key}>
+                      Past: <strong>{value}</strong>
+                    </li>
+                )}
+                if (key === 'past_negative_form') {
+                  return (
+                    <li key={key}>
+                      Past negative: <strong>{value}</strong>
+                    </li>
+                )}
+                if (key === 'volitional_form') {
+                  return (
+                    <li key={key}>
+                      Volitional: <strong>{value}</strong>
+                    </li>
+                )}
+                if (key === 'te_form') {
+                  return (
+                    <li key={key}>
+                      Te: <strong>{value}</strong>
+                    </li>
+                )}
+                if (key === 'de_form') {
+                  return (
+                    <li key={key}>
+                      De: <strong>{value}</strong>
+                    </li>
+                )}
+                if (key === 'short_present_affirmative') {
+                  return (
+                    <>
+                      <ol>Short form</ol>
+                      <li key={key}>
+                        Present: <strong>{value}</strong>
+                      </li>
+                    </>
+                )}
+                if (key === 'short_present_negative') {
+                  return (
+                    <li key={key}>
+                      Negative: <strong>{value}</strong>
+                    </li>
+                )}
+                if (key === 'short_past_affirmative') {
+                  return (
+                    <li key={key}>
+                      Past: <strong>{value}</strong>
+                    </li>
+                )}
+                if (key === 'short_past_negative') {
+                  return (
+                    <li key={key}>
+                      Past negative: <strong>{value}</strong>
+                    </li>
+                )}
+              })}
             </ul>
           )}
         </div>

@@ -1,0 +1,742 @@
+{
+    "verbs": [
+        {
+            "type": "verb",
+            "verb_kanji": "行く",
+            "verb_kana": "いく",
+            "meaning": "to go",
+            "image": "assets/ikimasu.jpg",
+            "forms": {
+                "plain_past": "いった",
+                "polite_past": "いきました",
+                "negative_past": "いかなかった",
+                "polite_negative_past": "いきませんでした",
+                "volitional": "いこう",
+                "potential": "いける",
+                "passive": "いかれる",
+                "causative": "いかせる",
+                "causative_passive": "いかされる",
+                "tai_form": "いきたい",
+                "negative_tai_form": "いきたくないで",
+                "ba_form": "いけば",
+                "negative_ba_form": "いかなければ"
+            },
+            "polite_present": "います"
+        },
+        {
+            "type": "verb",
+            "verb_kanji": "聞く",
+            "verb_kana": "きく",
+            "meaning": "to listen",
+            "image": "",
+            "forms": {
+                "plain_past": "きいた",
+                "polite_past": "ききました",
+                "negative_past": "きかなかった",
+                "polite_negative_past": "ききませんでした",
+                "volitional": "きこう",
+                "potential": "きける",
+                "passive": "きかれる",
+                "causative": "きかせる",
+                "causative_passive": "きかされる",
+                "tai_form": "ききたい",
+                "negative_tai_form": "ききたくないで",
+                "ba_form": "きけば",
+                "negative_ba_form": "きかなければ"
+            },
+            "polite_present": "きます"
+        },
+        {
+            "type": "verb",
+            "verb_kanji": "読む",
+            "verb_kana": "よむ",
+            "meaning": "to read",
+            "image": "",
+            "forms": {
+                "plain_past": "よんだ",
+                "polite_past": "よみました",
+                "negative_past": "よまなかった",
+                "polite_negative_past": "よみませんでした",
+                "volitional": "よもう",
+                "potential": "よめる",
+                "passive": "よまれる",
+                "causative": "よませる",
+                "causative_passive": "よまされる",
+                "tai_form": "よみたい",
+                "negative_tai_form": "よみたくないで",
+                "ba_form": "よめば",
+                "negative_ba_form": "よまなければ"
+            },
+            "polite_present": "よます"
+        },
+        {
+            "type": "verb",
+            "verb_kanji": "話す",
+            "verb_kana": "はなす",
+            "meaning": "to talk",
+            "image": "",
+            "forms": {
+                "plain_past": "はなした",
+                "polite_past": "はなしました",
+                "negative_past": "はなさなかった",
+                "polite_negative_past": "はなしませんでした",
+                "volitional": "はなそう",
+                "potential": "はなせる",
+                "passive": "はなされる",
+                "causative": "はなさせる",
+                "causative_passive": "はなさされる",
+                "tai_form": "はなしたい",
+                "negative_tai_form": "はなしたくないで",
+                "ba_form": "はなせば",
+                "negative_ba_form": "はなさなければ"
+            },
+            "polite_present": "はなます"
+        },
+        {
+            "type": "verb",
+            "verb_kanji": "撮る",
+            "verb_kana": "とる",
+            "meaning": "to take a photo",
+            "image": "",
+            "forms": {
+                "plain_past": "とった",
+                "polite_past": "とりました",
+                "negative_past": "とらなかった",
+                "polite_negative_past": "とりませんでした",
+                "volitional": "とろう",
+                "potential": "とれる",
+                "passive": "とられる",
+                "causative": "とらせる",
+                "causative_passive": "とらされる",
+                "tai_form": "とりたい",
+                "negative_tai_form": "とりたくないで",
+                "ba_form": "とれば",
+                "negative_ba_form": "とらなければ"
+            },
+            "polite_present": "とます"
+        },
+        {
+            "type": "verb",
+            "verb_kanji": "切る",
+            "verb_kana": "きる",
+            "meaning": "to cut",
+            "image": "",
+            "forms": {
+                "plain_past": "きった",
+                "polite_past": "きりました",
+                "negative_past": "きらなかった",
+                "polite_negative_past": "きりませんでした",
+                "volitional": "きろう",
+                "potential": "きれる",
+                "passive": "きられる",
+                "causative": "きらせる",
+                "causative_passive": "きらされる",
+                "tai_form": "きりたい",
+                "negative_tai_form": "きりたくないで",
+                "ba_form": "きれば",
+                "negative_ba_form": "きらなければ"
+            },
+            "polite_present": "きます"
+        },
+        {
+            "type": "verb",
+            "verb_kanji": "ある",
+            "verb_kana": "ある",
+            "meaning": "to have/to exist",
+            "image": "",
+            "forms": {
+                "plain_past": "あった",
+                "polite_past": "ありました",
+                "negative_past": "なかった",
+                "polite_negative_past": "ありませんでした",
+                "volitional": null,
+                "potential": null,
+                "passive": null,
+                "causative": null,
+                "causative_passive": null,
+                "tai_form": null,
+                "negative_tai_form": null,
+                "ba_form": "あれば",
+                "negative_ba_form": "なければ"
+            },
+            "polite_present": "あます"
+        },
+        {
+            "type": "verb",
+            "verb_kanji": "分かる",
+            "verb_kana": "わかる",
+            "meaning": "to know",
+            "image": "",
+            "forms": {
+                "plain_past": "わかった",
+                "polite_past": "わかりました",
+                "negative_past": "わからなかった",
+                "polite_negative_past": "わかりませんでした",
+                "volitional": null,
+                "potential": "わかれる",
+                "passive": null,
+                "causative": "わからせる",
+                "causative_passive": null,
+                "tai_form": null,
+                "negative_tai_form": null,
+                "ba_form": "わかれば",
+                "negative_ba_form": "わからなければ"
+            },
+            "polite_present": "わかます"
+        },
+        {
+            "type": "verb",
+            "verb_kanji": "待つ",
+            "verb_kana": "まつ",
+            "meaning": "to wait",
+            "image": "",
+            "forms": {
+                "plain_past": "まった",
+                "polite_past": "まちました",
+                "negative_past": "またなかった",
+                "polite_negative_past": "まちませんでした",
+                "volitional": "まとう",
+                "potential": "またれる",
+                "passive": "またれる",
+                "causative": "またせる",
+                "causative_passive": "またされる",
+                "tai_form": "まちたい",
+                "negative_tai_form": "まちたくないで",
+                "ba_form": "まてば",
+                "negative_ba_form": "またなければ"
+            },
+            "polite_present": "まます"
+        },
+        {
+            "type": "verb",
+            "verb_kanji": "頑張る",
+            "verb_kana": "がんばる",
+            "meaning": "to do one's best",
+            "image": "",
+            "forms": {
+                "plain_past": "がんばった",
+                "polite_past": "がんばりました",
+                "negative_past": "がんばらなかった",
+                "polite_negative_past": "がんばりませんでした",
+                "volitional": "がんばろう",
+                "potential": "がんばれる",
+                "passive": null,
+                "causative": "がんばらせる",
+                "causative_passive": "がんばらされる",
+                "tai_form": "がんばりたい",
+                "negative_tai_form": "がんばりたくないで",
+                "ba_form": "がんばれば",
+                "negative_ba_form": "がんばらなければ"
+            },
+            "polite_present": "がんばます"
+        },
+        {
+            "type": "verb",
+            "verb_kanji": "入る",
+            "verb_kana": "はいる",
+            "meaning": "to enter",
+            "image": "",
+            "forms": {
+                "plain_past": "はいった",
+                "polite_past": "はいりました",
+                "negative_past": "はいらなかった",
+                "polite_negative_past": "はいりませんでした",
+                "volitional": "はいろう",
+                "potential": "はいれる",
+                "passive": "はいられる",
+                "causative": "はいらせる",
+                "causative_passive": "はいらされる",
+                "tai_form": "はいりたい",
+                "negative_tai_form": "はいりたくないで",
+                "ba_form": "はいれば",
+                "negative_ba_form": "はいらなければ"
+            },
+            "polite_present": "はいます"
+        },
+        {
+            "type": "verb",
+            "verb_kanji": "置く",
+            "verb_kana": "おく",
+            "meaning": "to put",
+            "image": "",
+            "forms": {
+                "plain_past": "おいた",
+                "polite_past": "おきました",
+                "negative_past": "おかなかった",
+                "polite_negative_past": "おきませんでした",
+                "volitional": "おこう",
+                "potential": "おける",
+                "passive": "おかれる",
+                "causative": "おかせる",
+                "causative_passive": "おかされる",
+                "tai_form": "おきたい",
+                "negative_tai_form": "おきたくないで",
+                "ba_form": "おけば",
+                "negative_ba_form": "おかなければ"
+            },
+            "polite_present": "おます"
+        },
+        {
+            "type": "verb",
+            "verb_kanji": "出す",
+            "verb_kana": "だす",
+            "meaning": "to take out/to send",
+            "image": "",
+            "forms": {
+                "plain_past": "だした",
+                "polite_past": "だしました",
+                "negative_past": "ださなかった",
+                "polite_negative_past": "だしませんでした",
+                "volitional": "だそう",
+                "potential": "だせる",
+                "passive": "だされる",
+                "causative": "ださせる",
+                "causative_passive": "ださされる",
+                "tai_form": "だしたい",
+                "negative_tai_form": "だしたくないで",
+                "ba_form": "だせば",
+                "negative_ba_form": "ださなければ"
+            },
+            "polite_present": "だます"
+        },
+        {
+            "type": "verb",
+            "verb_kanji": "違う",
+            "verb_kana": "ちがう",
+            "meaning": "to be different",
+            "image": "",
+            "forms": {
+                "plain_past": "ちがった",
+                "polite_past": "ちがいました",
+                "negative_past": "ちがわなかった",
+                "polite_negative_past": "ちがいませんでした",
+                "volitional": "ちがおう",
+                "potential": "ちがえる",
+                "passive": "ちがわれる",
+                "causative": "ちがわせる",
+                "causative_passive": "ちがわされる",
+                "tai_form": "ちがいたい",
+                "negative_tai_form": "ちがいたくないで",
+                "ba_form": "ちがえば",
+                "negative_ba_form": "ちがわなければ"
+            },
+            "polite_present": "ちがます"
+        },
+        {
+            "type": "verb",
+            "verb_kanji": "降る",
+            "verb_kana": "ふる",
+            "meaning": "to fall (rain)",
+            "image": "",
+            "forms": {
+                "plain_past": "ふった",
+                "polite_past": "ふりました",
+                "negative_past": "ふらなかった",
+                "polite_negative_past": "ふりませんでした",
+                "volitional": "ふろう",
+                "potential": "ふれる",
+                "passive": "ふられる",
+                "causative": "ふらせる",
+                "causative_passive": "ふらされる",
+                "tai_form": "ふりたい",
+                "negative_tai_form": "ふりたくないで",
+                "ba_form": "ふれば",
+                "negative_ba_form": "ふらなければ"
+            },
+            "polite_present": "ふます"
+        },
+        {
+            "type": "verb",
+            "verb_kanji": "休む",
+            "verb_kana": "やすむ",
+            "meaning": "to rest",
+            "image": "",
+            "forms": {
+                "plain_past": "やすんだ",
+                "polite_past": "やすみました",
+                "negative_past": "やすまなかった",
+                "polite_negative_past": "やすみませんでした",
+                "volitional": "やすもう",
+                "potential": "やすめる",
+                "passive": "やすまれる",
+                "causative": "やすませる",
+                "causative_passive": "やすまされる",
+                "tai_form": "やすみたい",
+                "negative_tai_form": "やすみたくないで",
+                "ba_form": "やすめば",
+                "negative_ba_form": "やすまなければ"
+            },
+            "polite_present": "やすます"
+        },
+        {
+            "type": "verb",
+            "verb_kanji": "会う",
+            "verb_kana": "あう",
+            "meaning": "to meet",
+            "image": "",
+            "forms": {
+                "plain_past": "あった",
+                "polite_past": "あいました",
+                "negative_past": "あわなかった",
+                "polite_negative_past": "あいませんでした",
+                "volitional": "あおう",
+                "potential": "あえる",
+                "passive": "あわれる",
+                "causative": "あわせる",
+                "causative_passive": "あわされる",
+                "tai_form": "あいたい",
+                "negative_tai_form": "あいたくないで",
+                "ba_form": "あえば",
+                "negative_ba_form": "あわなければ"
+            },
+            "polite_present": "あます"
+        },
+        {
+            "type": "verb",
+            "verb_kanji": "間に合う",
+            "verb_kana": "まにあう",
+            "meaning": "to be on time",
+            "image": "",
+            "forms": {
+                "plain_past": "まにあった",
+                "polite_past": "まにあいました",
+                "negative_past": "まにあわなかった",
+                "polite_negative_past": "まにあいませんでした",
+                "volitional": "まにあおう",
+                "potential": "まにあえる",
+                "passive": "まにあわれる",
+                "causative": "まにあわせる",
+                "causative_passive": "まにあわされる",
+                "tai_form": "まにあいたい",
+                "negative_tai_form": "まにあいたくないで",
+                "ba_form": "まにあえば",
+                "negative_ba_form": "まにあわなければ"
+            },
+            "polite_present": "まにあます"
+        },
+        {
+            "type": "verb",
+            "verb_kanji": "作る",
+            "verb_kana": "つくる",
+            "meaning": "to make",
+            "image": "",
+            "forms": {
+                "plain_past": "つくった",
+                "polite_past": "つくりました",
+                "negative_past": "つくらなかった",
+                "polite_negative_past": "つくりませんでした",
+                "volitional": "つくろう",
+                "potential": "つくれる",
+                "passive": "つくられる",
+                "causative": "つくらせる",
+                "causative_passive": "つくらされる",
+                "tai_form": "つくりたい",
+                "negative_tai_form": "つくりたくないで",
+                "ba_form": "つくれば",
+                "negative_ba_form": "つくらなければ"
+            },
+            "polite_present": "つくます"
+        }
+    ],
+    "adjectives": [
+        {
+            "type": "adjective",
+            "adjective_kana": "おいしい",
+            "meaning": "delicious",
+            "image": "",
+            "forms": {
+                "plain_past": "おいしかった",
+                "negative_past": "おいしくなかった",
+                "plain_present": "おいしい",
+                "negative_present": "おいしくない",
+                "polite_past": "おいしかったです",
+                "polite_negative_past": "おいしくありませんでした",
+                "polite_present": "おいしいです",
+                "polite_negative_present": "おいしくありません",
+                "ba_form": "おいしければ",
+                "negative_ba_form": "おいしくなければ"
+            }
+        },
+        {
+            "type": "adjective",
+            "adjective_kana": "まずい",
+            "meaning": "bad tasting",
+            "image": "",
+            "forms": {
+                "plain_past": "まずかった",
+                "negative_past": "まずくなかった",
+                "plain_present": "まずい",
+                "negative_present": "まずくない",
+                "polite_past": "まずかったです",
+                "polite_negative_past": "まずくありませんでした",
+                "polite_present": "まずいです",
+                "polite_negative_present": "まずくありません",
+                "ba_form": "まずければ",
+                "negative_ba_form": "まずくなければ"
+            }
+        },
+        {
+            "type": "adjective",
+            "adjective_kana": "やさしい",
+            "meaning": "easy/kind",
+            "image": "",
+            "forms": {
+                "plain_past": "やさしかった",
+                "negative_past": "やさしくなかった",
+                "plain_present": "やさしい",
+                "negative_present": "やさしくない",
+                "polite_past": "やさしかったです",
+                "polite_negative_past": "やさしくありませんでした",
+                "polite_present": "やさしいです",
+                "polite_negative_present": "やさしくありません",
+                "ba_form": "やさしければ",
+                "negative_ba_form": "やさしくなければ"
+            }
+        },
+        {
+            "type": "adjective",
+            "adjective_kana": "たかい",
+            "meaning": "expensive/tall",
+            "image": "",
+            "forms": {
+                "plain_past": "たかかった",
+                "negative_past": "たかくなかった",
+                "plain_present": "たかい",
+                "negative_present": "たかくない",
+                "polite_past": "たかかったです",
+                "polite_negative_past": "たかくありませんでした",
+                "polite_present": "たかいです",
+                "polite_negative_present": "たかくありません",
+                "ba_form": "たかければ",
+                "negative_ba_form": "たかくなければ"
+            }
+        },
+        {
+            "type": "adjective",
+            "adjective_kana": "おおきい",
+            "meaning": "big",
+            "image": "",
+            "forms": {
+                "plain_past": "おおきかった",
+                "negative_past": "おおきくなかった",
+                "plain_present": "おおきい",
+                "negative_present": "おおきくない",
+                "polite_past": "おおきかったです",
+                "polite_negative_past": "おおきくありませんでした",
+                "polite_present": "おおきいです",
+                "polite_negative_present": "おおきくありません",
+                "ba_form": "おおきければ",
+                "negative_ba_form": "おおきくなければ"
+            }
+        },
+        {
+            "type": "adjective",
+            "adjective_kana": "ちいさい",
+            "meaning": "small",
+            "image": "",
+            "forms": {
+                "plain_past": "ちいさかった",
+                "negative_past": "ちいさくなかった",
+                "plain_present": "ちいさい",
+                "negative_present": "ちいさくない",
+                "polite_past": "ちいさかったです",
+                "polite_negative_past": "ちいさくありませんでした",
+                "polite_present": "ちいさいです",
+                "polite_negative_present": "ちいさくありません",
+                "ba_form": "ちいさければ",
+                "negative_ba_form": "ちいさくなければ"
+            }
+        },
+        {
+            "type": "adjective",
+            "adjective_kana": "やすい",
+            "meaning": "cheap",
+            "image": "",
+            "forms": {
+                "plain_past": "やすかった",
+                "negative_past": "やすくなかった",
+                "plain_present": "やすい",
+                "negative_present": "やすくない",
+                "polite_past": "やすかったです",
+                "polite_negative_past": "やすくありませんでした",
+                "polite_present": "やすいです",
+                "polite_negative_present": "やすくありません",
+                "ba_form": "やすければ",
+                "negative_ba_form": "やすくなければ"
+            }
+        },
+        {
+            "type": "adjective",
+            "adjective_kana": "あたらしい",
+            "meaning": "new",
+            "image": "",
+            "forms": {
+                "plain_past": "あたらしかった",
+                "negative_past": "あたらしくなかった",
+                "plain_present": "あたらしい",
+                "negative_present": "あたらしくない",
+                "polite_past": "あたらしかったです",
+                "polite_negative_past": "あたらしくありませんでした",
+                "polite_present": "あたらしいです",
+                "polite_negative_present": "あたらしくありません",
+                "ba_form": "あたらしければ",
+                "negative_ba_form": "あたらしくなければ"
+            }
+        },
+        {
+            "type": "adjective",
+            "adjective_kana": "ふるい",
+            "meaning": "old (thing)",
+            "image": "",
+            "forms": {
+                "plain_past": "ふるかった",
+                "negative_past": "ふるくなかった",
+                "plain_present": "ふるい",
+                "negative_present": "ふるくない",
+                "polite_past": "ふるかったです",
+                "polite_negative_past": "ふるくありませんでした",
+                "polite_present": "ふるいです",
+                "polite_negative_present": "ふるくありません",
+                "ba_form": "ふるければ",
+                "negative_ba_form": "ふるくなければ"
+            }
+        },
+        {
+            "type": "adjective",
+            "adjective_kana": "よい",
+            "meaning": "good",
+            "image": "",
+            "forms": {
+                "plain_past": "よかった",
+                "negative_past": "よくなかった",
+                "plain_present": "よい",
+                "negative_present": "よくない",
+                "polite_past": "よかったです",
+                "polite_negative_past": "よくありませんでした",
+                "polite_present": "よいです",
+                "polite_negative_present": "よくありません",
+                "ba_form": "よければ",
+                "negative_ba_form": "よくなければ"
+            }
+        },
+        {
+            "type": "adjective",
+            "adjective_kana": "わるい",
+            "meaning": "bad",
+            "image": "",
+            "forms": {
+                "plain_past": "わるかった",
+                "negative_past": "わるくなかった",
+                "plain_present": "わるい",
+                "negative_present": "わるくない",
+                "polite_past": "わるかったです",
+                "polite_negative_past": "わるくありませんでした",
+                "polite_present": "わるいです",
+                "polite_negative_present": "わるくありません",
+                "ba_form": "わるければ",
+                "negative_ba_form": "わるくなければ"
+            }
+        },
+        {
+            "type": "adjective",
+            "adjective_kana": "すくない",
+            "meaning": "few/little",
+            "image": "",
+            "forms": {
+                "plain_past": "すくなかった",
+                "negative_past": "すくなくなかった",
+                "plain_present": "すくない",
+                "negative_present": "すくなくない",
+                "polite_past": "すくなかったです",
+                "polite_negative_past": "すくなくありませんでした",
+                "polite_present": "すくないです",
+                "polite_negative_present": "すくなくありません",
+                "ba_form": "すくなければ",
+                "negative_ba_form": "すくなくなければ"
+            }
+        },
+        {
+            "type": "adjective",
+            "adjective_kana": "あかい",
+            "meaning": "red",
+            "image": "",
+            "forms": {
+                "plain_past": "あかかった",
+                "negative_past": "あかくなかった",
+                "plain_present": "あかい",
+                "negative_present": "あかくない",
+                "polite_past": "あかかったです",
+                "polite_negative_past": "あかくありませんでした",
+                "polite_present": "あかいです",
+                "polite_negative_present": "あかくありません",
+                "ba_form": "あかければ",
+                "negative_ba_form": "あかくなければ"
+            }
+        },
+        {
+            "type": "adjective",
+            "adjective_kana": "しろい",
+            "meaning": "white",
+            "image": "",
+            "forms": {
+                "plain_past": "しろかった",
+                "negative_past": "しろくなかった",
+                "plain_present": "しろい",
+                "negative_present": "しろくない",
+                "polite_past": "しろかったです",
+                "polite_negative_past": "しろくありませんでした",
+                "polite_present": "しろいです",
+                "polite_negative_present": "しろくありません",
+                "ba_form": "しろければ",
+                "negative_ba_form": "しろくなければ"
+            }
+        },
+        {
+            "type": "adjective",
+            "adjective_kana": "きいろい",
+            "meaning": "yellow",
+            "image": "",
+            "forms": {
+                "plain_past": "きいろかった",
+                "negative_past": "きいろくなかった",
+                "plain_present": "きいろい",
+                "negative_present": "きいろくない",
+                "polite_past": "きいろかったです",
+                "polite_negative_past": "きいろくありませんでした",
+                "polite_present": "きいろいです",
+                "polite_negative_present": "きいろくありません",
+                "ba_form": "きいろければ",
+                "negative_ba_form": "きいろくなければ"
+            }
+        },
+        {
+            "type": "adjective",
+            "adjective_kana": "ちゃいろい",
+            "meaning": "brown",
+            "image": "",
+            "forms": {
+                "plain_past": "ちゃいろかった",
+                "negative_past": "ちゃいろくなかった",
+                "plain_present": "ちゃいろい",
+                "negative_present": "ちゃいろくない",
+                "polite_past": "ちゃいろかったです",
+                "polite_negative_past": "ちゃいろくありませんでした",
+                "polite_present": "ちゃいろいです",
+                "polite_negative_present": "ちゃいろくありません",
+                "ba_form": "ちゃいろければ",
+                "negative_ba_form": "ちゃいろくなければ"
+            }
+        }
+    ],
+    "suruMeishi": [
+    {
+      "word": "べんきょうします",
+      "type": "suru",
+      "suruForm": "べんきょうする",
+      "image": "assets/benkiou.jpg",
+      "forms": {
+        "shortForm": "べんきょうする"
+      }
+    }
+  ]
+}
