@@ -30,12 +30,12 @@
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 22px;
 }
 
 .card-title span {
-  width: 28px;
-  height: 28px;
+  width: 26px;
+  height: 26px;
   margin-right: 12px;
   border-radius: 100%;
   display: inline-block;

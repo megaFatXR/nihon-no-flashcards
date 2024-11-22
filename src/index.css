@@ -37,6 +37,10 @@ code {
   background: #ccc;
 }
 
+.main-nav-link.active {
+  display: none;
+}
+
 .swiper-slide {
   height: 90vh!important;
   display: flex!important;
@@ -47,10 +51,12 @@ code {
 
 @media only screen and (max-width: 600px) {
   .swiper-button-prev, .swiper-button-next {
-    top: 93%!important;
+    top: auto!important;
+    bottom: 24px;
+    z-index: 99;
   }
   .swiper-button-next:after,
   .swiper-button-prev:after {
-    font-size: 26px!important;
+    font-size: 32px!important;
   }
 }

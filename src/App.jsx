@@ -36,7 +36,7 @@ const App = () => {
            to="/">Flashcards</NavLink>
           <NavLink className={({ isActive }) =>
               isActive ? "main-nav-link active" : "main-nav-link"
-            } to="/list">List</NavLink>
+            } to="/list">Full list</NavLink>
           <ThemeSwitcher theme={theme} toggleTheme={toggleTheme} />
         </nav>
         <Routes>
