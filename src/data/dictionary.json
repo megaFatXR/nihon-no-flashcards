@@ -212,7 +212,7 @@
         "meaning": "to smoke",
         "plain_form": "すう",
         "long_form": "すいます",
-        "image": "assets/suimasu.jpg",
+        "image": "assets/suimasu-g.jpg",
         "forms": {
           "nai_form": "すわない",
           "past_form": "すった",
@@ -228,6 +228,7 @@
         "meaning": "to speak",
         "plain_form": "はなす",
         "long_form": "はなします",
+        "image": "assets/hanashimasu.jpg",
         "forms": {
           "nai_form": "はなさない",
           "past_form": "はなした",
@@ -243,6 +244,7 @@
         "meaning": "to take a picture",
         "plain_form": "とる",
         "long_form": "とります",
+        "image": "assets/torimasu.jpg",
         "forms": {
           "nai_form": "とらない",
           "past_form": "とった",
@@ -258,6 +260,7 @@
         "meaning": "to cut",
         "plain_form": "きる",
         "long_form": "きります",
+        "image": "assets/kirimasu.jpg",
         "forms": {  
           "nai_form": "きらない",
           "past_form": "きった",
@@ -270,13 +273,12 @@
       {
         "verb": "ある",
         "type": "verb",
-        "meaning": "to exist / to have",
+        "meaning": "to have / exist (inanimate)",
         "plain_form": "ある",
         "long_form": "あります",
+        "image": "assets/arimasu.jpg",
         "forms": {
-          
           "nai_form": "ない",
-          
           "past_form": "あった",
           "past_negative_form": "なかった",
           "volitional_form": "あろう",
@@ -290,11 +292,9 @@
         "meaning": "to understand",
         "plain_form": "わかる",
         "long_form": "わかります",
-        "image": "assets/wakarimasu.jpg",
+        "image": "assets/wakarimasu-g.jpg",
         "forms": {
-          
           "nai_form": "わからない",
-          
           "past_form": "わかった",
           "past_negative_form": "わからなかった",
           "volitional_form": "わかろう",
@@ -308,10 +308,9 @@
         "meaning": "to wait",
         "plain_form": "まつ",
         "long_form": "まちます",
-        "forms": {
-          
+        "image": "assets/machimasu-g.jpg",
+        "forms": {  
           "nai_form": "またない",
-          
           "past_form": "まった",
           "past_negative_form": "またなかった",
           "volitional_form": "まとう",
@@ -325,11 +324,9 @@
         "meaning": "to do one’s best",
         "plain_form": "がんばる",
         "long_form": "がんばります",
-        "image": "assets/ganbate.jpg",
+        "image": "assets/ganbate-g.jpg",
         "forms": {
-          
           "nai_form": "がんばらない",
-          
           "past_form": "がんばった",
           "past_negative_form": "がんばらなかった",
           "volitional_form": "がんばろう",
@@ -344,9 +341,7 @@
         "plain_form": "はいる",
         "long_form": "はいります",
         "forms": {
-          
           "nai_form": "はいらない",
-          
           "past_form": "はいった",
           "past_negative_form": "はいらなかった",
           "volitional_form": "はいろう",
@@ -361,9 +356,7 @@
         "plain_form": "おく",
         "long_form": "おきます",
         "forms": {
-          
           "nai_form": "おかない",
-          
           "past_form": "おいた",
           "past_negative_form": "おかなかった",
           "volitional_form": "おこう",
@@ -392,10 +385,8 @@
         "meaning": "to differ",
         "plain_form": "ちがう",
         "long_form": "ちがいます",
-        "forms": {
-          
+        "forms": {     
           "nai_form": "ちがわない",
-          
           "past_form": "ちがった",
           "past_negative_form": "ちがわなかった",
           "volitional_form": "ちがおう",
@@ -410,9 +401,7 @@
         "plain_form": "ふる",
         "long_form": "ふります",
         "forms": {
-          
           "nai_form": "ふらない",
-          
           "past_form": "ふった",
           "past_negative_form": "ふらなかった",
           "volitional_form": "ふろう",
@@ -427,9 +416,7 @@
         "plain_form": "やすむ",
         "long_form": "やすみます",
         "forms": {
-          
           "nai_form": "やすまない",
-          
           "past_form": "やすんだ",
           "past_negative_form": "やすまなかった",
           "volitional_form": "やすもう",
@@ -444,9 +431,7 @@
         "plain_form": "あう",
         "long_form": "あいます",
         "forms": {
-          
           "nai_form": "あわない",
-          
           "past_form": "あった",
           "past_negative_form": "あわなかった",
           "volitional_form": "あおう",
@@ -461,9 +446,7 @@
         "plain_form": "まにあう",
         "long_form": "まにあいます",
         "forms": {
-          
           "nai_form": "まにあわない",
-          
           "past_form": "まにあった",
           "past_negative_form": "まにあわなかった",
           "volitional_form": "まにあおう",
