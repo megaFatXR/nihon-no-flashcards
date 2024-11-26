@@ -1,919 +1,1354 @@
 {
-    "verbs": [
-      {
-        "verb": "行く",
-        "type": "verb",
-        "meaning": "to go",
-        "plain_form": "いく",
-        "long_form": "いきます",
-        "image": "assets/ikimasu-g.jpg",
-        "forms": {
-          "nai_form": "いかない",
-          "past_form": "いった",
-          "past_negative_form": "いかなかった",
-          "volitional_form": "いこう",
-          "te_form": "いって",
-          "de_form": "いかないで"
-        }
-      },
-      {
-        "verb": "飲む",
-        "type": "verb",
-        "meaning": "to drink",
-        "plain_form": "のむ",
-        "long_form": "のみます",
-        "image": "assets/nomimasu.jpg",
-        "forms": {
-          "nai_form": "のまない",
-          "past_form": "のんだ",
-          "past_negative_form": "のまなかった",
-          "volitional_form": "のもう",
-          "te_form": "のんで",
-          "de_form": "のまないで"
-        }
-      },
-      {
-        "verb": "履く",
-        "type": "verb",
-        "meaning": "to put on (shoes/pants)",
-        "plain_form": "はく",
-        "long_form": "はきます",
-        "image": "assets/hakimasu.jpg",
-        "forms": {
-          "nai_form": "はかない",
-          "past_form": "はいた",
-          "past_negative_form": "はかなかった",
-          "volitional_form": "はこう",
-          "te_form": "はいて",
-          "de_form": "はかないで"
-        }
-      },
-      {
-        "verb": "脱ぐ",
-        "type": "verb",
-        "meaning": "to undress",
-        "plain_form": "ぬぐ",
-        "long_form": "ぬぎます",
-        "image": "assets/nugimasu.jpg",
-        "forms": {
-          "nai_form": "ぬがない",
-          "past_form": "ぬいだ",
-          "past_negative_form": "ぬがなかった",
-          "volitional_form": "ぬごう",
-          "te_form": "ぬいで",
-          "de_form": "ぬがないで"
-        }
-      },
-      {
-        "verb": "買う",
-        "type": "verb",
-        "meaning": "to buy",
-        "plain_form": "かう",
-        "long_form": "かいます",
-        "image": "assets/kaimasu.jpg",
-        "forms": {
-          "nai_form": "かわない",
-          "past_form": "かった",
-          "past_negative_form": "かわなかった",
-          "volitional_form": "かおう",
-          "te_form": "かって",
-          "de_form": "かわないで"
-        }
-      },
-      {
-        "verb": "呼ぶ",
-        "type": "verb",
-        "meaning": "to call",
-        "plain_form": "よぶ",
-        "long_form": "よびます",
-        "image": "assets/yobimasu.jpg",
-        "forms": {
-          "nai_form": "よばない",
-          "past_form": "よんだ",
-          "past_negative_form": "よばなかった",
-          "volitional_form": "よぼう",
-          "te_form": "よんで",
-          "de_form": "よばないで"
-        }
-      },
-      {
-        "verb": "言う",
-        "type": "verb",
-        "meaning": "to say",
-        "plain_form": "いう",
-        "long_form": "いいます",
-        "forms": {
-          "nai_form": "いわない",
-          "past_form": "いった",
-          "past_negative_form": "いわなかった",
-          "volitional_form": "いおう",
-          "te_form": "いって",
-          "de_form": "いわないで"
-        }
-      },
-      {
-        "verb": "消す",
-        "type": "verb",
-        "meaning": "to turn off / erase",
-        "plain_form": "けす",
-        "long_form": "けします",
-        "image": "assets/keshimasu.jpg",
-        "forms": {
-          "nai_form": "けさない",
-          "past_form": "けした",
-          "past_negative_form": "けさなかった",
-          "volitional_form": "けそう",
-          "te_form": "けして",
-          "de_form": "けさないで"
-        }
-      },
-      {
-        "verb": "立つ",
-        "type": "verb",
-        "meaning": "to stand",
-        "plain_form": "たつ",
-        "long_form": "たちます",
-        "image": "assets/tachimasu-g.jpg",
-        "forms": {
-          "nai_form": "たたない",
-          "past_form": "たった",
-          "past_negative_form": "たたなかった",
-          "volitional_form": "たとう",
-          "te_form": "たって",
-          "de_form": "たたないで"
-        }
-      },
-      {
-        "verb": "座る",
-        "type": "verb",
-        "meaning": "to sit",
-        "plain_form": "すわる",
-        "long_form": "すわります",
-        "image": "assets/suwarimasu.jpg",
-        "forms": {
-          "nai_form": "すわらない",
-          "past_form": "すわった",
-          "past_negative_form": "すわらなかった",
-          "volitional_form": "すわろう",
-          "te_form": "すわって",
-          "de_form": "すわらないで"
-        }
-      },
-      {
-        "verb": "書く",
-        "type": "verb",
-        "meaning": "to write",
-        "plain_form": "かく",
-        "long_form": "かきます",
-        "image": "assets/kakimasu.jpg",
-        "forms": {
-          "nai_form": "かかない",
-          "past_form": "かいた",
-          "past_negative_form": "かかなかった",
-          "volitional_form": "かこう",
-          "te_form": "かいて",
-          "de_form": "かかないで"
-        }
-      },
-      {
-        "verb": "聞く",
-        "type": "verb",
-        "meaning": "to listen",
-        "plain_form": "きく",
-        "long_form": "ききます",
-        "forms": {
-          "nai_form": "きかない",
-          "past_form": "きいた",
-          "past_negative_form": "きかなかった",
-          "volitional_form": "きこう",
-          "te_form": "きいて",
-          "de_form": "きかないで"
-        }
-      },
-      {
-        "verb": "読む",
-        "type": "verb",
-        "meaning": "to read",
-        "plain_form": "よむ",
-        "long_form": "よみます",
-        "image": "assets/yomimasu.jpg",
-        "forms": {
-          "nai_form": "よまない",
-          "past_form": "よんだ",
-          "past_negative_form": "よまなかった",
-          "volitional_form": "よもう",
-          "te_form": "よんで",
-          "de_form": "よまないで"
-        }
-      },
-      {
-        "verb": "吸う",
-        "type": "verb",
-        "meaning": "to smoke",
-        "plain_form": "すう",
-        "long_form": "すいます",
-        "image": "assets/suimasu-g.jpg",
-        "forms": {
-          "nai_form": "すわない",
-          "past_form": "すった",
-          "past_negative_form": "すわなかった",
-          "volitional_form": "すおう",
-          "te_form": "すって",
-          "de_form": "すわないで"
-        }
-      },
-      {
-        "verb": "話す",
-        "type": "verb",
-        "meaning": "to speak",
-        "plain_form": "はなす",
-        "long_form": "はなします",
-        "image": "assets/hanashimasu.jpg",
-        "forms": {
-          "nai_form": "はなさない",
-          "past_form": "はなした",
-          "past_negative_form": "はなさなかった",
-          "volitional_form": "はなそう",
-          "te_form": "はなして",
-          "de_form": "はなさないで"
-        }
-      },
-      {
-        "verb": "取る",
-        "type": "verb",
-        "meaning": "to take a picture",
-        "plain_form": "とる",
-        "long_form": "とります",
-        "image": "assets/torimasu.jpg",
-        "forms": {
-          "nai_form": "とらない",
-          "past_form": "とった",
-          "past_negative_form": "とらなかった",
-          "volitional_form": "とろう",
-          "te_form": "とって",
-          "de_form": "とらないで"
-        }
-      },
-      {
-        "verb": "切る",
-        "type": "verb",
-        "meaning": "to cut",
-        "plain_form": "きる",
-        "long_form": "きります",
-        "image": "assets/kirimasu.jpg",
-        "forms": {  
-          "nai_form": "きらない",
-          "past_form": "きった",
-          "past_negative_form": "きらなかった",
-          "volitional_form": "きろう",
-          "te_form": "きって",
-          "de_form": "きらないで"
-        }
-      },
-      {
-        "verb": "ある",
-        "type": "verb",
-        "meaning": "to have / exist (inanimate)",
-        "plain_form": "ある",
-        "long_form": "あります",
-        "image": "assets/arimasu.jpg",
-        "forms": {
-          "nai_form": "ない",
-          "past_form": "あった",
-          "past_negative_form": "なかった",
-          "volitional_form": "あろう",
-          "te_form": "あって",
-          "de_form": "ないで"
-        }
-      },
-      {
-        "verb": "分かる",
-        "type": "verb",
-        "meaning": "to understand",
-        "plain_form": "わかる",
-        "long_form": "わかります",
-        "image": "assets/wakarimasu-g.jpg",
-        "forms": {
-          "nai_form": "わからない",
-          "past_form": "わかった",
-          "past_negative_form": "わからなかった",
-          "volitional_form": "わかろう",
-          "te_form": "わかって",
-          "de_form": "わからないで"
-        }
-      },
-      {
-        "verb": "待つ",
-        "type": "verb",
-        "meaning": "to wait",
-        "plain_form": "まつ",
-        "long_form": "まちます",
-        "image": "assets/machimasu-g.jpg",
-        "forms": {  
-          "nai_form": "またない",
-          "past_form": "まった",
-          "past_negative_form": "またなかった",
-          "volitional_form": "まとう",
-          "te_form": "まって",
-          "de_form": "またないで"
-        }
-      },
-      {
-        "verb": "頑張る",
-        "type": "verb",
-        "meaning": "to do one’s best",
-        "plain_form": "がんばる",
-        "long_form": "がんばります",
-        "image": "assets/ganbate-g.jpg",
-        "forms": {
-          "nai_form": "がんばらない",
-          "past_form": "がんばった",
-          "past_negative_form": "がんばらなかった",
-          "volitional_form": "がんばろう",
-          "te_form": "がんばって",
-          "de_form": "がんばらないで"
-        }
-      },
-      {
-        "verb": "入る",
-        "type": "verb",
-        "meaning": "to enter",
-        "plain_form": "はいる",
-        "long_form": "はいります",
-        "forms": {
-          "nai_form": "はいらない",
-          "past_form": "はいった",
-          "past_negative_form": "はいらなかった",
-          "volitional_form": "はいろう",
-          "te_form": "はいって",
-          "de_form": "はいらないで"
-        }
-      },
-      {
-        "verb": "置く",
-        "type": "verb",
-        "meaning": "to put",
-        "plain_form": "おく",
-        "long_form": "おきます",
-        "forms": {
-          "nai_form": "おかない",
-          "past_form": "おいた",
-          "past_negative_form": "おかなかった",
-          "volitional_form": "おこう",
-          "te_form": "おいて",
-          "de_form": "おかないで"
-        }
-      },
-      {
-        "verb": "出す",
-        "type": "verb",
-        "meaning": "to take out / to send",
-        "plain_form": "だす",
-        "long_form": "だします",
-        "forms": {
-          "nai_form": "ださない",
-          "past_form": "だした",
-          "past_negative_form": "ださなかった",
-          "volitional_form": "だそう",
-          "te_form": "だして",
-          "de_form": "ださないで"
-        }
-      },
-      {
-        "verb": "違う",
-        "type": "verb",
-        "meaning": "to differ",
-        "plain_form": "ちがう",
-        "long_form": "ちがいます",
-        "forms": {     
-          "nai_form": "ちがわない",
-          "past_form": "ちがった",
-          "past_negative_form": "ちがわなかった",
-          "volitional_form": "ちがおう",
-          "te_form": "ちがって",
-          "de_form": "ちがわないで"
-        }
-      },
-      {
-        "verb": "降る",
-        "type": "verb",
-        "meaning": "to fall (rain, snow)",
-        "plain_form": "ふる",
-        "long_form": "ふります",
-        "forms": {
-          "nai_form": "ふらない",
-          "past_form": "ふった",
-          "past_negative_form": "ふらなかった",
-          "volitional_form": "ふろう",
-          "te_form": "ふって",
-          "de_form": "ふらないで"
-        }
-      },
-      {
-        "verb": "休む",
-        "type": "verb",
-        "meaning": "to rest",
-        "plain_form": "やすむ",
-        "long_form": "やすみます",
-        "forms": {
-          "nai_form": "やすまない",
-          "past_form": "やすんだ",
-          "past_negative_form": "やすまなかった",
-          "volitional_form": "やすもう",
-          "te_form": "やすんで",
-          "de_form": "やすまないで"
-        }
-      },
-      {
-        "verb": "会う",
-        "type": "verb",
-        "meaning": "to meet",
-        "plain_form": "あう",
-        "long_form": "あいます",
-        "forms": {
-          "nai_form": "あわない",
-          "past_form": "あった",
-          "past_negative_form": "あわなかった",
-          "volitional_form": "あおう",
-          "te_form": "あって",
-          "de_form": "あわないで"
-        }
-      },
-      {
-        "verb": "間に合う",
-        "type": "verb",
-        "meaning": "to be on time",
-        "plain_form": "まにあう",
-        "long_form": "まにあいます",
-        "forms": {
-          "nai_form": "まにあわない",
-          "past_form": "まにあった",
-          "past_negative_form": "まにあわなかった",
-          "volitional_form": "まにあおう",
-          "te_form": "まにあって",
-          "de_form": "まにあわないで"
-        }
-      },
-      {
-        "verb": "作る",
-        "type": "verb",
-        "meaning": "to make",
-        "plain_form": "つくる",
-        "long_form": "つくります",
-        "forms": {
-          "nai_form": "つくらない",
-          "past_form": "つくった",
-          "past_negative_form": "つくらなかった",
-          "volitional_form": "つくろう",
-          "te_form": "つくって",
-          "de_form": "つくらないで"
-        }
-      },
-      {
-        "verb": "泳ぐ",
-        "type": "verb",
-        "meaning": "to swim",
-        "plain_form": "およぐ",
-        "long_form": "およぎます",
-        "forms": {
-          "nai_form": "およがない",
-          "past_form": "およいだ",
-          "past_negative_form": "およがなかった",
-          "volitional_form": "およごう",
-          "te_form": "およいで",
-          "de_form": "およがないで"
-        }
-      },
-      {
-        "verb": "食べる",
-        "type": "verb",
-        "meaning": "to eat",
-        "plain_form": "たべる",
-        "long_form": "たべます",
-        "forms": {
-          "nai_form": "たべない",
-          "past_form": "たべた",
-          "past_negative_form": "たべなかった",
-          "volitional_form": "たべよう",
-          "te_form": "たべて",
-          "de_form": "たべないで"
-        }
-      },
-      {
-        "verb": "来る",
-        "type": "irregular verb",
-        "meaning": "to come",
-        "plain_form": "くる",
-        "long_form": "きます",
-        "forms": {
-          "nai_form": "こない",
-          "past_form": "きた",
-          "past_negative_form": "こなかった",
-          "volitional_form": "こよう",
-          "te_form": "きて",
-          "de_form": "こないで"
-        }
-      },
-      {
-        "verb": "付ける",
-        "type": "verb",
-        "meaning": "to turn on",
-        "plain_form": "つける",
-        "long_form": "つけます",
-        "forms": {
-          "nai_form": "つけない",
-          "past_form": "つけた",
-          "past_negative_form": "つけなかった",
-          "volitional_form": "つけよう",
-          "te_form": "つけて",
-          "de_form": "つけないで"
-        }
-      },
-      {
-        "verb": "開ける",
-        "type": "verb",
-        "meaning": "to open",
-        "plain_form": "あける",
-        "long_form": "あけます",
-        "forms": {
-          "nai_form": "あけない",
-          "past_form": "あけた",
-          "past_negative_form": "あけなかった",
-          "volitional_form": "あけよう",
-          "te_form": "あけて",
-          "de_form": "あけないで"
-        }
-      },
-      {
-        "verb": "閉める",
-        "type": "verb",
-        "meaning": "to close",
-        "plain_form": "しめる",
-        "long_form": "しめます",
-        "forms": {
-          "nai_form": "しめない",
-          "past_form": "しめた",
-          "past_negative_form": "しめなかった",
-          "volitional_form": "しめよう",
-          "te_form": "しめて",
-          "de_form": "しめないで"
-        }
-      },
-      {
-        "verb": "見る",
-        "type": "verb",
-        "meaning": "to see",
-        "plain_form": "みる",
-        "long_form": "みます",
-        "forms": {
-          "nai_form": "みない",
-          "past_form": "みた",
-          "past_negative_form": "みなかった",
-          "volitional_form": "みよう",
-          "te_form": "みて",
-          "de_form": "みないで"
-        }
-      },
-      {
-        "verb": "見せる",
-        "type": "verb",
-        "meaning": "to show",
-        "plain_form": "みせる",
-        "long_form": "みせます",
-        "forms": {
-          "nai_form": "みせない",
-          "past_form": "みせた",
-          "past_negative_form": "みせなかった",
-          "volitional_form": "みせよう",
-          "te_form": "みせて",
-          "de_form": "みせないで"
-        }
-      },
-      {
-        "verb": "いる",
-        "type": "verb",
-        "meaning": "to exist (animate)",
-        "plain_form": "いる",
-        "long_form": "います",
-        "forms": {
-          "nai_form": "いない",
-          "past_form": "いた",
-          "past_negative_form": "いなかった",
-          "volitional_form": "いよう",
-          "te_form": "いて",
-          "de_form": "いないで"
-        }
-      },
-      {
-        "verb": "出る",
-        "type": "verb",
-        "meaning": "to exit",
-        "plain_form": "でる",
-        "long_form": "でます",
-        "forms": {
-          "nai_form": "でない",
-          "past_form": "でた",
-          "past_negative_form": "でなかった",
-          "volitional_form": "でよう",
-          "te_form": "でて",
-          "de_form": "でないで"
-        }
-      },
-      {
-        "verb": "教える",
-        "type": "verb",
-        "meaning": "to teach",
-        "plain_form": "おしえる",
-        "long_form": "おしえます",
-        "forms": {
-          "nai_form": "おしえない",
-          "past_form": "おしえた",
-          "past_negative_form": "おしえなかった",
-          "volitional_form": "おしえよう",
-          "te_form": "おしえて",
-          "de_form": "おしえないで"
-        }
-      },
-      {
-        "verb": "入れる",
-        "type": "verb",
-        "meaning": "to insert",
-        "plain_form": "いれる",
-        "long_form": "いれます",
-        "forms": {
-          "nai_form": "いれない",
-          "past_form": "いれた",
-          "past_negative_form": "いれなかった",
-          "volitional_form": "いれよう",
-          "te_form": "いれて",
-          "de_form": "いれないで"
-        }
-      },
-      {
-        "verb": "掛ける",
-        "type": "verb",
-        "meaning": "to hang (phone call)",
-        "plain_form": "かける",
-        "long_form": "かけます",
-        "forms": {
-          "nai_form": "かけない",
-          "past_form": "かけた",
-          "past_negative_form": "かけなかった",
-          "volitional_form": "かけよう",
-          "te_form": "かけて",
-          "de_form": "かけないで"
-        }
-      },
-      {
-        "verb": "間違える",
-        "type": "verb",
-        "meaning": "to make a mistake",
-        "plain_form": "まちがえる",
-        "long_form": "まちがえます",
-        "forms": {
-          "nai_form": "まちがえない",
-          "past_form": "まちがえた",
-          "past_negative_form": "まちがえなかった",
-          "volitional_form": "まちがえよう",
-          "te_form": "まちがえて",
-          "de_form": "まちがえないで"
-        }
-      },
-      {
-        "verb": "遅れる",
-        "type": "verb",
-        "meaning": "to be late",
-        "plain_form": "おくれる",
-        "long_form": "おくれます",
-        "forms": {
-          "nai_form": "おくれない",
-          "past_form": "おくれた",
-          "past_negative_form": "おくれなかった",
-          "volitional_form": "おくれよう",
-          "te_form": "おくれて",
-          "de_form": "おくれないで"
-        }
-      },
-      {
-        "verb": "寝る",
-        "type": "verb",
-        "meaning": "to sleep",
-        "plain_form": "ねる",
-        "long_form": "ねます",
-        "forms": {
-          "nai_form": "ねない",
-          "past_form": "ねた",
-          "past_negative_form": "ねなかった",
-          "volitional_form": "ねよう",
-          "te_form": "ねて",
-          "de_form": "ねないで"
-        }
-      },
-      {
-        "verb": "起きる",
-        "type": "verb",
-        "meaning": "to wake up",
-        "plain_form": "おきる",
-        "long_form": "おきます",
-        "forms": {
-          "nai_form": "おきない",
-          "past_form": "おきた",
-          "past_negative_form": "おきなかった",
-          "volitional_form": "おきよう",
-          "te_form": "おきて",
-          "de_form": "おきないで"
-        }
-      },
-      {
-        "verb": "できる",
-        "type": "verb",
-        "meaning": "to be able to",
-        "plain_form": "できる",
-        "long_form": "できます",
-        "forms": {
-          "nai_form": "できない",
-          "past_form": "できた",
-          "past_negative_form": "できなかった",
-          "volitional_form": "できよう",
-          "te_form": "できて",
-          "de_form": "できないで"
+  "verbs": [
+    {
+      "verb": "行く",
+      "type": "verb",
+      "meaning": "to go",
+      "plain_form": "いく",
+      "long_form": "いきます",
+      "image": "assets/ikimasu-g.jpg",
+      "forms": {
+        "nai_form": "いかない",
+        "past_form": "いった",
+        "past_negative_form": "いかなかった",
+        "volitional_form": "いこう",
+        "te_form": "いって",
+        "de_form": "いかないで",
+        "long_nai_form": "いません",
+        "long_past_form": "いました",
+        "long_past_negative_form": "いませんでした",
+        "long_volitional_form": "いましょう",
+        "eba_form": "いえば",
+        "nakereba_form": "いかないければ",
+        "tai_form": "いたい",
+        "takunai_form": "いたくない",
+        "potential_form": "いえる"
+      }
+    },
+    {
+      "verb": "飲む",
+      "type": "verb",
+      "meaning": "to drink",
+      "plain_form": "のむ",
+      "long_form": "のみます",
+      "image": "assets/nomimasu.jpg",
+      "forms": {
+        "nai_form": "のまない",
+        "past_form": "のんだ",
+        "past_negative_form": "のまなかった",
+        "volitional_form": "のもう",
+        "te_form": "のんで",
+        "de_form": "のまないで",
+        "long_nai_form": "のません",
+        "long_past_form": "のました",
+        "long_past_negative_form": "のませんでした",
+        "long_volitional_form": "のましょう",
+        "eba_form": "のえば",
+        "nakereba_form": "のまないければ",
+        "tai_form": "のたい",
+        "takunai_form": "のたくない",
+        "potential_form": "のえる"
+      }
+    },
+    {
+      "verb": "履く",
+      "type": "verb",
+      "meaning": "to put on (shoes/pants)",
+      "plain_form": "はく",
+      "long_form": "はきます",
+      "image": "assets/hakimasu.jpg",
+      "forms": {
+        "nai_form": "はかない",
+        "past_form": "はいた",
+        "past_negative_form": "はかなかった",
+        "volitional_form": "はこう",
+        "te_form": "はいて",
+        "de_form": "はかないで",
+        "long_nai_form": "はません",
+        "long_past_form": "はました",
+        "long_past_negative_form": "はませんでした",
+        "long_volitional_form": "はましょう",
+        "eba_form": "はえば",
+        "nakereba_form": "はかないければ",
+        "tai_form": "はたい",
+        "takunai_form": "はたくない",
+        "potential_form": "はえる"
+      }
+    },
+    {
+      "verb": "脱ぐ",
+      "type": "verb",
+      "meaning": "to undress",
+      "plain_form": "ぬぐ",
+      "long_form": "ぬぎます",
+      "image": "assets/nugimasu.jpg",
+      "forms": {
+        "nai_form": "ぬがない",
+        "past_form": "ぬいだ",
+        "past_negative_form": "ぬがなかった",
+        "volitional_form": "ぬごう",
+        "te_form": "ぬいで",
+        "de_form": "ぬがないで",
+        "long_nai_form": "ぬません",
+        "long_past_form": "ぬました",
+        "long_past_negative_form": "ぬませんでした",
+        "long_volitional_form": "ぬましょう",
+        "eba_form": "ぬえば",
+        "nakereba_form": "ぬがないければ",
+        "tai_form": "ぬたい",
+        "takunai_form": "ぬたくない",
+        "potential_form": "ぬえる"
+      }
+    },
+    {
+      "verb": "買う",
+      "type": "verb",
+      "meaning": "to buy",
+      "plain_form": "かう",
+      "long_form": "かいます",
+      "image": "assets/kaimasu.jpg",
+      "forms": {
+        "nai_form": "かわない",
+        "past_form": "かった",
+        "past_negative_form": "かわなかった",
+        "volitional_form": "かおう",
+        "te_form": "かって",
+        "de_form": "かわないで",
+        "long_nai_form": "かません",
+        "long_past_form": "かました",
+        "long_past_negative_form": "かませんでした",
+        "long_volitional_form": "かましょう",
+        "eba_form": "かえば",
+        "nakereba_form": "かわないければ",
+        "tai_form": "かたい",
+        "takunai_form": "かたくない",
+        "potential_form": "かえる"
+      }
+    },
+    {
+      "verb": "呼ぶ",
+      "type": "verb",
+      "meaning": "to call",
+      "plain_form": "よぶ",
+      "long_form": "よびます",
+      "image": "assets/yobimasu.jpg",
+      "forms": {
+        "nai_form": "よばない",
+        "past_form": "よんだ",
+        "past_negative_form": "よばなかった",
+        "volitional_form": "よぼう",
+        "te_form": "よんで",
+        "de_form": "よばないで",
+        "long_nai_form": "よません",
+        "long_past_form": "よました",
+        "long_past_negative_form": "よませんでした",
+        "long_volitional_form": "よましょう",
+        "eba_form": "よえば",
+        "nakereba_form": "よばないければ",
+        "tai_form": "よたい",
+        "takunai_form": "よたくない",
+        "potential_form": "よえる"
+      }
+    },
+    {
+      "verb": "言う",
+      "type": "verb",
+      "meaning": "to say",
+      "plain_form": "いう",
+      "long_form": "いいます",
+      "image": "assets/iimasu-g.jpg",
+      "forms": {
+        "nai_form": "いわない",
+        "past_form": "いった",
+        "past_negative_form": "いわなかった",
+        "volitional_form": "いおう",
+        "te_form": "いって",
+        "de_form": "いわないで",
+        "long_nai_form": "いません",
+        "long_past_form": "いました",
+        "long_past_negative_form": "いませんでした",
+        "long_volitional_form": "いましょう",
+        "eba_form": "いえば",
+        "nakereba_form": "いわないければ",
+        "tai_form": "いたい",
+        "takunai_form": "いたくない",
+        "potential_form": "いえる"
+      }
+    },
+    {
+      "verb": "消す",
+      "type": "verb",
+      "meaning": "to turn off / erase",
+      "plain_form": "けす",
+      "long_form": "けします",
+      "image": "assets/keshimasu.jpg",
+      "forms": {
+        "nai_form": "けさない",
+        "past_form": "けした",
+        "past_negative_form": "けさなかった",
+        "volitional_form": "けそう",
+        "te_form": "けして",
+        "de_form": "けさないで",
+        "long_nai_form": "けません",
+        "long_past_form": "けました",
+        "long_past_negative_form": "けませんでした",
+        "long_volitional_form": "けましょう",
+        "eba_form": "けえば",
+        "nakereba_form": "けさないければ",
+        "tai_form": "けたい",
+        "takunai_form": "けたくない",
+        "potential_form": "けえる"
+      }
+    },
+    {
+      "verb": "立つ",
+      "type": "verb",
+      "meaning": "to stand",
+      "plain_form": "たつ",
+      "long_form": "たちます",
+      "image": "assets/tachimasu-g.jpg",
+      "forms": {
+        "nai_form": "たたない",
+        "past_form": "たった",
+        "past_negative_form": "たたなかった",
+        "volitional_form": "たとう",
+        "te_form": "たって",
+        "de_form": "たたないで",
+        "long_nai_form": "たません",
+        "long_past_form": "たました",
+        "long_past_negative_form": "たませんでした",
+        "long_volitional_form": "たましょう",
+        "eba_form": "たえば",
+        "nakereba_form": "たたないければ",
+        "tai_form": "たたい",
+        "takunai_form": "たたくない",
+        "potential_form": "たえる"
+      }
+    },
+    {
+      "verb": "座る",
+      "type": "verb",
+      "meaning": "to sit",
+      "plain_form": "すわる",
+      "long_form": "すわります",
+      "image": "assets/suwarimasu.jpg",
+      "forms": {
+        "nai_form": "すわらない",
+        "past_form": "すわった",
+        "past_negative_form": "すわらなかった",
+        "volitional_form": "すわろう",
+        "te_form": "すわって",
+        "de_form": "すわらないで",
+        "long_nai_form": "すわません",
+        "long_past_form": "すわました",
+        "long_past_negative_form": "すわませんでした",
+        "long_volitional_form": "すわましょう",
+        "eba_form": "すわれば",
+        "nakereba_form": "すわらないければ",
+        "tai_form": "すわたい",
+        "takunai_form": "すわたくない",
+        "potential_form": "すわられる"
+      }
+    },
+    {
+      "verb": "書く",
+      "type": "verb",
+      "meaning": "to write",
+      "plain_form": "かく",
+      "long_form": "かきます",
+      "image": "assets/kakimasu.jpg",
+      "forms": {
+        "nai_form": "かかない",
+        "past_form": "かいた",
+        "past_negative_form": "かかなかった",
+        "volitional_form": "かこう",
+        "te_form": "かいて",
+        "de_form": "かかないで",
+        "long_nai_form": "かません",
+        "long_past_form": "かました",
+        "long_past_negative_form": "かませんでした",
+        "long_volitional_form": "かましょう",
+        "eba_form": "かえば",
+        "nakereba_form": "かかないければ",
+        "tai_form": "かたい",
+        "takunai_form": "かたくない",
+        "potential_form": "かえる"
+      }
+    },
+    {
+      "verb": "聞く",
+      "type": "verb",
+      "meaning": "to listen",
+      "plain_form": "きく",
+      "long_form": "ききます",
+      "image": "assets/iimasu-g.jpg",
+      "forms": {
+        "nai_form": "きかない",
+        "past_form": "きいた",
+        "past_negative_form": "きかなかった",
+        "volitional_form": "きこう",
+        "te_form": "きいて",
+        "de_form": "きかないで",
+        "long_nai_form": "きません",
+        "long_past_form": "きました",
+        "long_past_negative_form": "きませんでした",
+        "long_volitional_form": "きましょう",
+        "eba_form": "きえば",
+        "nakereba_form": "きかないければ",
+        "tai_form": "きたい",
+        "takunai_form": "きたくない",
+        "potential_form": "きえる"
+      }
+    },
+    {
+      "verb": "読む",
+      "type": "verb",
+      "meaning": "to read",
+      "plain_form": "よむ",
+      "long_form": "よみます",
+      "image": "assets/yomimasu.jpg",
+      "forms": {
+        "nai_form": "よまない",
+        "past_form": "よんだ",
+        "past_negative_form": "よまなかった",
+        "volitional_form": "よもう",
+        "te_form": "よんで",
+        "de_form": "よまないで",
+        "long_nai_form": "よません",
+        "long_past_form": "よました",
+        "long_past_negative_form": "よませんでした",
+        "long_volitional_form": "よましょう",
+        "eba_form": "よえば",
+        "nakereba_form": "よまないければ",
+        "tai_form": "よたい",
+        "takunai_form": "よたくない",
+        "potential_form": "よえる"
+      }
+    },
+    {
+      "verb": "吸う",
+      "type": "verb",
+      "meaning": "to smoke",
+      "plain_form": "すう",
+      "long_form": "すいます",
+      "image": "assets/suimasu-g2.jpg",
+      "forms": {
+        "nai_form": "すわない",
+        "past_form": "すった",
+        "past_negative_form": "すわなかった",
+        "volitional_form": "すおう",
+        "te_form": "すって",
+        "de_form": "すわないで",
+        "long_nai_form": "すません",
+        "long_past_form": "すました",
+        "long_past_negative_form": "すませんでした",
+        "long_volitional_form": "すましょう",
+        "eba_form": "すえば",
+        "nakereba_form": "すわないければ",
+        "tai_form": "すたい",
+        "takunai_form": "すたくない",
+        "potential_form": "すえる"
+      }
+    },
+    {
+      "verb": "話す",
+      "type": "verb",
+      "meaning": "to speak",
+      "plain_form": "はなす",
+      "long_form": "はなします",
+      "image": "assets/hanashimasu.jpg",
+      "forms": {
+        "nai_form": "はなさない",
+        "past_form": "はなした",
+        "past_negative_form": "はなさなかった",
+        "volitional_form": "はなそう",
+        "te_form": "はなして",
+        "de_form": "はなさないで",
+        "long_nai_form": "はなません",
+        "long_past_form": "はなました",
+        "long_past_negative_form": "はなませんでした",
+        "long_volitional_form": "はなましょう",
+        "eba_form": "はなえば",
+        "nakereba_form": "はなさないければ",
+        "tai_form": "はなたい",
+        "takunai_form": "はなたくない",
+        "potential_form": "はなえる"
+      }
+    },
+    {
+      "verb": "取る",
+      "type": "verb",
+      "meaning": "to take a picture",
+      "plain_form": "とる",
+      "long_form": "とります",
+      "image": "assets/torimasu.jpg",
+      "forms": {
+        "nai_form": "とらない",
+        "past_form": "とった",
+        "past_negative_form": "とらなかった",
+        "volitional_form": "とろう",
+        "te_form": "とって",
+        "de_form": "とらないで",
+        "long_nai_form": "とません",
+        "long_past_form": "とました",
+        "long_past_negative_form": "とませんでした",
+        "long_volitional_form": "とましょう",
+        "eba_form": "とれば",
+        "nakereba_form": "とらないければ",
+        "tai_form": "とたい",
+        "takunai_form": "とたくない",
+        "potential_form": "とられる"
+      }
+    },
+    {
+      "verb": "切る",
+      "type": "verb",
+      "meaning": "to cut",
+      "plain_form": "きる",
+      "long_form": "きります",
+      "image": "assets/kirimasu.jpg",
+      "forms": {
+        "nai_form": "きらない",
+        "past_form": "きった",
+        "past_negative_form": "きらなかった",
+        "volitional_form": "きろう",
+        "te_form": "きって",
+        "de_form": "きらないで",
+        "long_nai_form": "きません",
+        "long_past_form": "きました",
+        "long_past_negative_form": "きませんでした",
+        "long_volitional_form": "きましょう",
+        "eba_form": "きれば",
+        "nakereba_form": "きらないければ",
+        "tai_form": "きたい",
+        "takunai_form": "きたくない",
+        "potential_form": "きられる"
+      }
+    },
+    {
+      "verb": "ある",
+      "type": "verb",
+      "meaning": "to have / exist (inanimate)",
+      "plain_form": "ある",
+      "long_form": "あります",
+      "image": "assets/arimasu.jpg",
+      "forms": {
+        "nai_form": "ない",
+        "past_form": "あった",
+        "past_negative_form": "なかった",
+        "volitional_form": "あろう",
+        "te_form": "あって",
+        "de_form": "ないで",
+        "long_nai_form": "あません",
+        "long_past_form": "あました",
+        "long_past_negative_form": "あませんでした",
+        "long_volitional_form": "あましょう",
+        "eba_form": "あれば",
+        "nakereba_form": "ないければ",
+        "tai_form": "あたい",
+        "takunai_form": "あたくない",
+        "potential_form": "あられる"
+      }
+    },
+    {
+      "verb": "分かる",
+      "type": "verb",
+      "meaning": "to understand",
+      "plain_form": "わかる",
+      "long_form": "わかります",
+      "image": "assets/wakarimasu-g.jpg",
+      "forms": {
+        "nai_form": "わからない",
+        "past_form": "わかった",
+        "past_negative_form": "わからなかった",
+        "volitional_form": "わかろう",
+        "te_form": "わかって",
+        "de_form": "わからないで",
+        "long_nai_form": "わかません",
+        "long_past_form": "わかました",
+        "long_past_negative_form": "わかませんでした",
+        "long_volitional_form": "わかましょう",
+        "eba_form": "わかれば",
+        "nakereba_form": "わからないければ",
+        "tai_form": "わかたい",
+        "takunai_form": "わかたくない",
+        "potential_form": "わかられる"
+      }
+    },
+    {
+      "verb": "待つ",
+      "type": "verb",
+      "meaning": "to wait",
+      "plain_form": "まつ",
+      "long_form": "まちます",
+      "image": "assets/machimasu-g.jpg",
+      "forms": {
+        "nai_form": "またない",
+        "past_form": "まった",
+        "past_negative_form": "またなかった",
+        "volitional_form": "まとう",
+        "te_form": "まって",
+        "de_form": "またないで",
+        "long_nai_form": "まません",
+        "long_past_form": "まました",
+        "long_past_negative_form": "まませんでした",
+        "long_volitional_form": "まましょう",
+        "eba_form": "まえば",
+        "nakereba_form": "またないければ",
+        "tai_form": "またい",
+        "takunai_form": "またくない",
+        "potential_form": "まえる"
+      }
+    },
+    {
+      "verb": "頑張る",
+      "type": "verb",
+      "meaning": "to do one’s best",
+      "plain_form": "がんばる",
+      "long_form": "がんばります",
+      "image": "assets/ganbate-g.jpg",
+      "forms": {
+        "nai_form": "がんばらない",
+        "past_form": "がんばった",
+        "past_negative_form": "がんばらなかった",
+        "volitional_form": "がんばろう",
+        "te_form": "がんばって",
+        "de_form": "がんばらないで",
+        "long_nai_form": "がんばません",
+        "long_past_form": "がんばました",
+        "long_past_negative_form": "がんばませんでした",
+        "long_volitional_form": "がんばましょう",
+        "eba_form": "がんばれば",
+        "nakereba_form": "がんばらないければ",
+        "tai_form": "がんばたい",
+        "takunai_form": "がんばたくない",
+        "potential_form": "がんばられる"
+      }
+    },
+    {
+      "verb": "入る",
+      "type": "verb",
+      "meaning": "to enter",
+      "plain_form": "はいる",
+      "long_form": "はいります",
+      "image": "assets/hairimasu.jpg",
+      "forms": {
+        "nai_form": "はいらない",
+        "past_form": "はいった",
+        "past_negative_form": "はいらなかった",
+        "volitional_form": "はいろう",
+        "te_form": "はいって",
+        "de_form": "はいらないで",
+        "long_nai_form": "はいません",
+        "long_past_form": "はいました",
+        "long_past_negative_form": "はいませんでした",
+        "long_volitional_form": "はいましょう",
+        "eba_form": "はいれば",
+        "nakereba_form": "はいらないければ",
+        "tai_form": "はいたい",
+        "takunai_form": "はいたくない",
+        "potential_form": "はいられる"
+      }
+    },
+    {
+      "verb": "置く",
+      "type": "verb",
+      "meaning": "to put",
+      "plain_form": "おく",
+      "long_form": "おきます",
+      "forms": {
+        "nai_form": "おかない",
+        "past_form": "おいた",
+        "past_negative_form": "おかなかった",
+        "volitional_form": "おこう",
+        "te_form": "おいて",
+        "de_form": "おかないで",
+        "long_nai_form": "おません",
+        "long_past_form": "おました",
+        "long_past_negative_form": "おませんでした",
+        "long_volitional_form": "おましょう",
+        "eba_form": "おえば",
+        "nakereba_form": "おかないければ",
+        "tai_form": "おたい",
+        "takunai_form": "おたくない",
+        "potential_form": "おえる"
+      }
+    },
+    {
+      "verb": "出す",
+      "type": "verb",
+      "meaning": "to take out / to send",
+      "plain_form": "だす",
+      "long_form": "だします",
+      "forms": {
+        "nai_form": "ださない",
+        "past_form": "だした",
+        "past_negative_form": "ださなかった",
+        "volitional_form": "だそう",
+        "te_form": "だして",
+        "de_form": "ださないで",
+        "long_nai_form": "だません",
+        "long_past_form": "だました",
+        "long_past_negative_form": "だませんでした",
+        "long_volitional_form": "だましょう",
+        "eba_form": "だえば",
+        "nakereba_form": "ださないければ",
+        "tai_form": "だたい",
+        "takunai_form": "だたくない",
+        "potential_form": "だえる"
+      }
+    },
+    {
+      "verb": "違う",
+      "type": "verb",
+      "meaning": "to differ",
+      "plain_form": "ちがう",
+      "long_form": "ちがいます",
+      "forms": {
+        "nai_form": "ちがわない",
+        "past_form": "ちがった",
+        "past_negative_form": "ちがわなかった",
+        "volitional_form": "ちがおう",
+        "te_form": "ちがって",
+        "de_form": "ちがわないで",
+        "long_nai_form": "ちがません",
+        "long_past_form": "ちがました",
+        "long_past_negative_form": "ちがませんでした",
+        "long_volitional_form": "ちがましょう",
+        "eba_form": "ちがえば",
+        "nakereba_form": "ちがわないければ",
+        "tai_form": "ちがたい",
+        "takunai_form": "ちがたくない",
+        "potential_form": "ちがえる"
+      }
+    },
+    {
+      "verb": "降る",
+      "type": "verb",
+      "meaning": "to fall (rain, snow)",
+      "plain_form": "ふる",
+      "long_form": "ふります",
+      "forms": {
+        "nai_form": "ふらない",
+        "past_form": "ふった",
+        "past_negative_form": "ふらなかった",
+        "volitional_form": "ふろう",
+        "te_form": "ふって",
+        "de_form": "ふらないで",
+        "long_nai_form": "ふません",
+        "long_past_form": "ふました",
+        "long_past_negative_form": "ふませんでした",
+        "long_volitional_form": "ふましょう",
+        "eba_form": "ふれば",
+        "nakereba_form": "ふらないければ",
+        "tai_form": "ふたい",
+        "takunai_form": "ふたくない",
+        "potential_form": "ふられる"
+      }
+    },
+    {
+      "verb": "休む",
+      "type": "verb",
+      "meaning": "to rest",
+      "plain_form": "やすむ",
+      "long_form": "やすみます",
+      "forms": {
+        "nai_form": "やすまない",
+        "past_form": "やすんだ",
+        "past_negative_form": "やすまなかった",
+        "volitional_form": "やすもう",
+        "te_form": "やすんで",
+        "de_form": "やすまないで",
+        "long_nai_form": "やすません",
+        "long_past_form": "やすました",
+        "long_past_negative_form": "やすませんでした",
+        "long_volitional_form": "やすましょう",
+        "eba_form": "やすえば",
+        "nakereba_form": "やすまないければ",
+        "tai_form": "やすたい",
+        "takunai_form": "やすたくない",
+        "potential_form": "やすえる"
+      }
+    },
+    {
+      "verb": "会う",
+      "type": "verb",
+      "meaning": "to meet",
+      "plain_form": "あう",
+      "long_form": "あいます",
+      "forms": {
+        "nai_form": "あわない",
+        "past_form": "あった",
+        "past_negative_form": "あわなかった",
+        "volitional_form": "あおう",
+        "te_form": "あって",
+        "de_form": "あわないで",
+        "long_nai_form": "あません",
+        "long_past_form": "あました",
+        "long_past_negative_form": "あませんでした",
+        "long_volitional_form": "あましょう",
+        "eba_form": "あえば",
+        "nakereba_form": "あわないければ",
+        "tai_form": "あたい",
+        "takunai_form": "あたくない",
+        "potential_form": "あえる"
+      }
+    },
+    {
+      "verb": "間に合う",
+      "type": "verb",
+      "meaning": "to be on time",
+      "plain_form": "まにあう",
+      "long_form": "まにあいます",
+      "forms": {
+        "nai_form": "まにあわない",
+        "past_form": "まにあった",
+        "past_negative_form": "まにあわなかった",
+        "volitional_form": "まにあおう",
+        "te_form": "まにあって",
+        "de_form": "まにあわないで",
+        "long_nai_form": "まにあません",
+        "long_past_form": "まにあました",
+        "long_past_negative_form": "まにあませんでした",
+        "long_volitional_form": "まにあましょう",
+        "eba_form": "まにあえば",
+        "nakereba_form": "まにあわないければ",
+        "tai_form": "まにあたい",
+        "takunai_form": "まにあたくない",
+        "potential_form": "まにあえる"
+      }
+    },
+    {
+      "verb": "作る",
+      "type": "verb",
+      "meaning": "to make",
+      "plain_form": "つくる",
+      "long_form": "つくります",
+      "forms": {
+        "nai_form": "つくらない",
+        "past_form": "つくった",
+        "past_negative_form": "つくらなかった",
+        "volitional_form": "つくろう",
+        "te_form": "つくって",
+        "de_form": "つくらないで",
+        "long_nai_form": "つくません",
+        "long_past_form": "つくました",
+        "long_past_negative_form": "つくませんでした",
+        "long_volitional_form": "つくましょう",
+        "eba_form": "つくれば",
+        "nakereba_form": "つくらないければ",
+        "tai_form": "つくたい",
+        "takunai_form": "つくたくない",
+        "potential_form": "つくられる"
+      }
+    },
+    {
+      "verb": "泳ぐ",
+      "type": "verb",
+      "meaning": "to swim",
+      "plain_form": "およぐ",
+      "long_form": "およぎます",
+      "forms": {
+        "nai_form": "およがない",
+        "past_form": "およいだ",
+        "past_negative_form": "およがなかった",
+        "volitional_form": "およごう",
+        "te_form": "およいで",
+        "de_form": "およがないで",
+        "long_nai_form": "およません",
+        "long_past_form": "およました",
+        "long_past_negative_form": "およませんでした",
+        "long_volitional_form": "およましょう",
+        "eba_form": "およえば",
+        "nakereba_form": "およがないければ",
+        "tai_form": "およたい",
+        "takunai_form": "およたくない",
+        "potential_form": "およえる"
+      }
+    },
+    {
+      "verb": "食べる",
+      "type": "verb",
+      "meaning": "to eat",
+      "plain_form": "たべる",
+      "long_form": "たべます",
+      "forms": {
+        "nai_form": "たべない",
+        "past_form": "たべた",
+        "past_negative_form": "たべなかった",
+        "volitional_form": "たべよう",
+        "te_form": "たべて",
+        "de_form": "たべないで",
+        "long_nai_form": "たません",
+        "long_past_form": "たました",
+        "long_past_negative_form": "たませんでした",
+        "long_volitional_form": "たましょう",
+        "eba_form": "たべれば",
+        "nakereba_form": "たべないければ",
+        "tai_form": "たべたい",
+        "takunai_form": "たべたくない",
+        "potential_form": "たべられる"
+      }
+    },
+    {
+      "verb": "来る",
+      "type": "irregular verb",
+      "meaning": "to come",
+      "plain_form": "くる",
+      "long_form": "きます",
+      "forms": {
+        "nai_form": "こない",
+        "past_form": "きた",
+        "past_negative_form": "こなかった",
+        "volitional_form": "こよう",
+        "te_form": "きて",
+        "de_form": "こないで",
+        "long_nai_form": "ません",
+        "long_past_form": "ました",
+        "long_past_negative_form": "ませんでした",
+        "long_volitional_form": "ましょう",
+        "eba_form": "くれば",
+        "nakereba_form": "こないければ",
+        "tai_form": "くたい",
+        "takunai_form": "くたくない",
+        "potential_form": "くられる"
+      }
+    },
+    {
+      "verb": "付ける",
+      "type": "verb",
+      "meaning": "to turn on",
+      "plain_form": "つける",
+      "long_form": "つけます",
+      "forms": {
+        "nai_form": "つけない",
+        "past_form": "つけた",
+        "past_negative_form": "つけなかった",
+        "volitional_form": "つけよう",
+        "te_form": "つけて",
+        "de_form": "つけないで",
+        "long_nai_form": "つません",
+        "long_past_form": "つました",
+        "long_past_negative_form": "つませんでした",
+        "long_volitional_form": "つましょう",
+        "eba_form": "つければ",
+        "nakereba_form": "つけないければ",
+        "tai_form": "つけたい",
+        "takunai_form": "つけたくない",
+        "potential_form": "つけられる"
+      }
+    },
+    {
+      "verb": "開ける",
+      "type": "verb",
+      "meaning": "to open",
+      "plain_form": "あける",
+      "long_form": "あけます",
+      "forms": {
+        "nai_form": "あけない",
+        "past_form": "あけた",
+        "past_negative_form": "あけなかった",
+        "volitional_form": "あけよう",
+        "te_form": "あけて",
+        "de_form": "あけないで",
+        "long_nai_form": "あません",
+        "long_past_form": "あました",
+        "long_past_negative_form": "あませんでした",
+        "long_volitional_form": "あましょう",
+        "eba_form": "あければ",
+        "nakereba_form": "あけないければ",
+        "tai_form": "あけたい",
+        "takunai_form": "あけたくない",
+        "potential_form": "あけられる"
+      }
+    },
+    {
+      "verb": "閉める",
+      "type": "verb",
+      "meaning": "to close",
+      "plain_form": "しめる",
+      "long_form": "しめます",
+      "forms": {
+        "nai_form": "しめない",
+        "past_form": "しめた",
+        "past_negative_form": "しめなかった",
+        "volitional_form": "しめよう",
+        "te_form": "しめて",
+        "de_form": "しめないで",
+        "long_nai_form": "しません",
+        "long_past_form": "しました",
+        "long_past_negative_form": "しませんでした",
+        "long_volitional_form": "しましょう",
+        "eba_form": "しめれば",
+        "nakereba_form": "しめないければ",
+        "tai_form": "しめたい",
+        "takunai_form": "しめたくない",
+        "potential_form": "しめられる"
+      }
+    },
+    {
+      "verb": "見る",
+      "type": "verb",
+      "meaning": "to see",
+      "plain_form": "みる",
+      "long_form": "みます",
+      "forms": {
+        "nai_form": "みない",
+        "past_form": "みた",
+        "past_negative_form": "みなかった",
+        "volitional_form": "みよう",
+        "te_form": "みて",
+        "de_form": "みないで",
+        "long_nai_form": "ません",
+        "long_past_form": "ました",
+        "long_past_negative_form": "ませんでした",
+        "long_volitional_form": "ましょう",
+        "eba_form": "みれば",
+        "nakereba_form": "みないければ",
+        "tai_form": "みたい",
+        "takunai_form": "みたくない",
+        "potential_form": "みられる"
+      }
+    },
+    {
+      "verb": "見せる",
+      "type": "verb",
+      "meaning": "to show",
+      "plain_form": "みせる",
+      "long_form": "みせます",
+      "forms": {
+        "nai_form": "みせない",
+        "past_form": "みせた",
+        "past_negative_form": "みせなかった",
+        "volitional_form": "みせよう",
+        "te_form": "みせて",
+        "de_form": "みせないで",
+        "long_nai_form": "みません",
+        "long_past_form": "みました",
+        "long_past_negative_form": "みませんでした",
+        "long_volitional_form": "みましょう",
+        "eba_form": "みせれば",
+        "nakereba_form": "みせないければ",
+        "tai_form": "みせたい",
+        "takunai_form": "みせたくない",
+        "potential_form": "みせられる"
+      }
+    },
+    {
+      "verb": "いる",
+      "type": "verb",
+      "meaning": "to exist (animate)",
+      "plain_form": "いる",
+      "long_form": "います",
+      "forms": {
+        "nai_form": "いない",
+        "past_form": "いた",
+        "past_negative_form": "いなかった",
+        "volitional_form": "いよう",
+        "te_form": "いて",
+        "de_form": "いないで",
+        "long_nai_form": "ません",
+        "long_past_form": "ました",
+        "long_past_negative_form": "ませんでした",
+        "long_volitional_form": "ましょう",
+        "eba_form": "いれば",
+        "nakereba_form": "いないければ",
+        "tai_form": "いたい",
+        "takunai_form": "いたくない",
+        "potential_form": "いられる"
+      }
+    },
+    {
+      "verb": "出る",
+      "type": "verb",
+      "meaning": "to exit",
+      "plain_form": "でる",
+      "long_form": "でます",
+      "forms": {
+        "nai_form": "でない",
+        "past_form": "でた",
+        "past_negative_form": "でなかった",
+        "volitional_form": "でよう",
+        "te_form": "でて",
+        "de_form": "でないで",
+        "long_nai_form": "ません",
+        "long_past_form": "ました",
+        "long_past_negative_form": "ませんでした",
+        "long_volitional_form": "ましょう",
+        "eba_form": "でれば",
+        "nakereba_form": "でないければ",
+        "tai_form": "でたい",
+        "takunai_form": "でたくない",
+        "potential_form": "でられる"
+      }
+    },
+    {
+      "verb": "教える",
+      "type": "verb",
+      "meaning": "to teach",
+      "plain_form": "おしえる",
+      "long_form": "おしえます",
+      "forms": {
+        "nai_form": "おしえない",
+        "past_form": "おしえた",
+        "past_negative_form": "おしえなかった",
+        "volitional_form": "おしえよう",
+        "te_form": "おしえて",
+        "de_form": "おしえないで",
+        "long_nai_form": "おしません",
+        "long_past_form": "おしました",
+        "long_past_negative_form": "おしませんでした",
+        "long_volitional_form": "おしましょう",
+        "eba_form": "おしえれば",
+        "nakereba_form": "おしえないければ",
+        "tai_form": "おしえたい",
+        "takunai_form": "おしえたくない",
+        "potential_form": "おしえられる"
+      }
+    },
+    {
+      "verb": "入れる",
+      "type": "verb",
+      "meaning": "to insert",
+      "plain_form": "いれる",
+      "long_form": "いれます",
+      "forms": {
+        "nai_form": "いれない",
+        "past_form": "いれた",
+        "past_negative_form": "いれなかった",
+        "volitional_form": "いれよう",
+        "te_form": "いれて",
+        "de_form": "いれないで",
+        "long_nai_form": "いません",
+        "long_past_form": "いました",
+        "long_past_negative_form": "いませんでした",
+        "long_volitional_form": "いましょう",
+        "eba_form": "いれれば",
+        "nakereba_form": "いれないければ",
+        "tai_form": "いれたい",
+        "takunai_form": "いれたくない",
+        "potential_form": "いれられる"
+      }
+    },
+    {
+      "verb": "掛ける",
+      "type": "verb",
+      "meaning": "to hang (phone call)",
+      "plain_form": "かける",
+      "long_form": "かけます",
+      "forms": {
+        "nai_form": "かけない",
+        "past_form": "かけた",
+        "past_negative_form": "かけなかった",
+        "volitional_form": "かけよう",
+        "te_form": "かけて",
+        "de_form": "かけないで",
+        "long_nai_form": "かません",
+        "long_past_form": "かました",
+        "long_past_negative_form": "かませんでした",
+        "long_volitional_form": "かましょう",
+        "eba_form": "かければ",
+        "nakereba_form": "かけないければ",
+        "tai_form": "かけたい",
+        "takunai_form": "かけたくない",
+        "potential_form": "かけられる"
+      }
+    },
+    {
+      "verb": "間違える",
+      "type": "verb",
+      "meaning": "to make a mistake",
+      "plain_form": "まちがえる",
+      "long_form": "まちがえます",
+      "forms": {
+        "nai_form": "まちがえない",
+        "past_form": "まちがえた",
+        "past_negative_form": "まちがえなかった",
+        "volitional_form": "まちがえよう",
+        "te_form": "まちがえて",
+        "de_form": "まちがえないで",
+        "long_nai_form": "まちがません",
+        "long_past_form": "まちがました",
+        "long_past_negative_form": "まちがませんでした",
+        "long_volitional_form": "まちがましょう",
+        "eba_form": "まちがえれば",
+        "nakereba_form": "まちがえないければ",
+        "tai_form": "まちがえたい",
+        "takunai_form": "まちがえたくない",
+        "potential_form": "まちがえられる"
+      }
+    },
+    {
+      "verb": "遅れる",
+      "type": "verb",
+      "meaning": "to be late",
+      "plain_form": "おくれる",
+      "long_form": "おくれます",
+      "forms": {
+        "nai_form": "おくれない",
+        "past_form": "おくれた",
+        "past_negative_form": "おくれなかった",
+        "volitional_form": "おくれよう",
+        "te_form": "おくれて",
+        "de_form": "おくれないで",
+        "long_nai_form": "おくません",
+        "long_past_form": "おくました",
+        "long_past_negative_form": "おくませんでした",
+        "long_volitional_form": "おくましょう",
+        "eba_form": "おくれれば",
+        "nakereba_form": "おくれないければ",
+        "tai_form": "おくれたい",
+        "takunai_form": "おくれたくない",
+        "potential_form": "おくれられる"
+      }
+    },
+    {
+      "verb": "寝る",
+      "type": "verb",
+      "meaning": "to sleep",
+      "plain_form": "ねる",
+      "long_form": "ねます",
+      "forms": {
+        "nai_form": "ねない",
+        "past_form": "ねた",
+        "past_negative_form": "ねなかった",
+        "volitional_form": "ねよう",
+        "te_form": "ねて",
+        "de_form": "ねないで",
+        "long_nai_form": "ません",
+        "long_past_form": "ました",
+        "long_past_negative_form": "ませんでした",
+        "long_volitional_form": "ましょう",
+        "eba_form": "ねれば",
+        "nakereba_form": "ねないければ",
+        "tai_form": "ねたい",
+        "takunai_form": "ねたくない",
+        "potential_form": "ねられる"
+      }
+    },
+    {
+      "verb": "起きる",
+      "type": "verb",
+      "meaning": "to wake up",
+      "plain_form": "おきる",
+      "long_form": "おきます",
+      "forms": {
+        "nai_form": "おきない",
+        "past_form": "おきた",
+        "past_negative_form": "おきなかった",
+        "volitional_form": "おきよう",
+        "te_form": "おきて",
+        "de_form": "おきないで",
+        "long_nai_form": "おません",
+        "long_past_form": "おました",
+        "long_past_negative_form": "おませんでした",
+        "long_volitional_form": "おましょう",
+        "eba_form": "おきれば",
+        "nakereba_form": "おきないければ",
+        "tai_form": "おきたい",
+        "takunai_form": "おきたくない",
+        "potential_form": "おきられる"
+      }
+    },
+    {
+      "verb": "できる",
+      "type": "verb",
+      "meaning": "to be able to",
+      "plain_form": "できる",
+      "long_form": "できます",
+      "forms": {
+        "nai_form": "できない",
+        "past_form": "できた",
+        "past_negative_form": "できなかった",
+        "volitional_form": "できよう",
+        "te_form": "できて",
+        "de_form": "できないで",
+        "long_nai_form": "でません",
+        "long_past_form": "でました",
+        "long_past_negative_form": "でませんでした",
+        "long_volitional_form": "でましょう",
+        "eba_form": "できれば",
+        "nakereba_form": "できないければ",
+        "tai_form": "できたい",
+        "takunai_form": "できたくない",
+        "potential_form": "できられる"
+      }
+    }
+  ],
+  "adjectives": [
+    {
+      "adjective": "おいしい",
+      "type": "adjective",
+      "meaning": "delicious",
+      "image": "assets/oishii.jpg",
+      "forms": {
+        "present_affirmative": "おいしいです",
+        "present_negative": "おいしくありません",
+        "past_affirmative": "おいしかったです",
+        "past_negative": "おいしくありませんでした",
+        "short_present_affirmative": "おいしい",
+        "short_present_negative": "おいしくない",
+        "short_past_affirmative": "おいしかった",
+        "short_past_negative": "おいしくなかった",
+        "conditional": "おいしければ"
+      }
+    },
+    {
+      "adjective": "まずい",
+      "type": "adjective",
+      "meaning": "not tasty",
+      "forms": {
+        "present_affirmative": "まずいです",
+        "present_negative": "まずくありません",
+        "past_affirmative": "まずかったです",
+        "past_negative": "まずくありませんでした",
+        "short_present_affirmative": "まずい",
+        "short_present_negative": "まずくない",
+        "short_past_affirmative": "まずかった",
+        "short_past_negative": "まずくなかった",
+        "conditional": "まずければ"
+      }
+    },
+    {
+      "adjective": "安い",
+      "type": "adjective",
+      "meaning": "cheap",
+      "forms": {
+        "present_affirmative": "やすいです",
+        "present_negative": "やすくありません",
+        "past_affirmative": "やすかったです",
+        "past_negative": "やすくありませんでした",
+        "short_present_affirmative": "やすい",
+        "short_present_negative": "やすくない",
+        "short_past_affirmative": "やすかった",
+        "short_past_negative": "やすくなかった",
+        "conditional": "やすければ"
+      }
+    },
+    {
+      "adjective": "高い",
+      "type": "adjective",
+      "meaning": "expensive",
+      "forms": {
+        "present_affirmative": "たかいです",
+        "present_negative": "たかくありません",
+        "past_affirmative": "たかかったです",
+        "past_negative": "たかくありませんでした",
+        "short_present_affirmative": "たかい",
+        "short_present_negative": "たかくない",
+        "short_past_affirmative": "たかかった",
+        "short_past_negative": "たかくなかった",
+        "conditional": "たかければ"
+      }
+    },
+    {
+      "adjective": "大きい",
+      "type": "adjective",
+      "meaning": "big",
+      "forms": {
+        "present_affirmative": "おおきいです",
+        "present_negative": "おおきくありません",
+        "past_affirmative": "おおきかったです",
+        "past_negative": "おおきくありませんでした",
+        "short_present_affirmative": "おおきい",
+        "short_present_negative": "おおきくない",
+        "short_past_affirmative": "おおきかった",
+        "short_past_negative": "おおきくなかった",
+        "conditional": "おおきければ"
+      }
+    },
+    {
+      "adjective": "小さい",
+      "type": "adjective",
+      "meaning": "small",
+      "forms": {
+        "present_affirmative": "ちいさいです",
+        "present_negative": "ちいさくありません",
+        "past_affirmative": "ちいさかったです",
+        "past_negative": "ちいさくありませんでした",
+        "short_present_affirmative": "ちいさい",
+        "short_present_negative": "ちいさくない",
+        "short_past_affirmative": "ちいさかった",
+        "short_past_negative": "ちいさくなかった",
+        "conditional": "ちいさければ"
+      }
+    }
+  ],
+  "surumeishi": [
+    {
+      "noun": "勉強",
+      "meaning": "to study",
+      "conjugations": {
+        "long_form": {
+          "present_affirmative": "勉強します",
+          "present_negative": "勉強しません",
+          "past_affirmative": "勉強しました",
+          "past_negative": "勉強しませんでした",
+          "volitional": "勉強しましょう"
+        },
+        "short_form": {
+          "present_affirmative": "勉強する",
+          "present_negative": "勉強しない",
+          "past_affirmative": "勉強した",
+          "past_negative": "勉強しなかった",
+          "conditional_affirmative": "勉強すれば",
+          "conditional_negative": "勉強しなければ",
+          "conversational": {
+            "affirmative": "勉強すりゃー",
+            "negative": "勉強しなきゃー"
+          }
         }
       }
-    ],
-    "adjectives": [
-        {
-            "adjective": "おいしい",
-            "type": "adjective",
-            "meaning": "delicious",
-            "image": "assets/oishii.jpg",
-            "forms": {
-                "present_affirmative": "おいしいです",
-                "present_negative": "おいしくありません",
-                "past_affirmative": "おいしかったです",
-                "past_negative": "おいしくありませんでした",
-                "short_present_affirmative": "おいしい",
-                "short_present_negative": "おいしくない",
-                "short_past_affirmative": "おいしかった",
-                "short_past_negative": "おいしくなかった",
-                "conditional": "おいしければ"
-            }
+    },
+    {
+      "noun": "買い物",
+      "meaning": "shopping",
+      "conjugations": {
+        "long_form": {
+          "present_affirmative": "買い物します",
+          "present_negative": "買い物しません",
+          "past_affirmative": "買い物しました",
+          "past_negative": "買い物しませんでした",
+          "volitional": "買い物しましょう"
         },
-            {
-            "adjective": "まずい",
-            "type": "adjective",
-            "meaning": "not tasty",
-            "forms": {
-                "present_affirmative": "まずいです",
-                "present_negative": "まずくありません",
-                "past_affirmative": "まずかったです",
-                "past_negative": "まずくありませんでした",
-                "short_present_affirmative": "まずい",
-                "short_present_negative": "まずくない",
-                "short_past_affirmative": "まずかった",
-                "short_past_negative": "まずくなかった",
-                "conditional": "まずければ"
-            }
-        },
-            {
-            "adjective": "安い",
-            "type": "adjective",
-            "meaning": "cheap",
-            "forms": {
-                "present_affirmative": "やすいです",
-                "present_negative": "やすくありません",
-                "past_affirmative": "やすかったです",
-                "past_negative": "やすくありませんでした",
-                "short_present_affirmative": "やすい",
-                "short_present_negative": "やすくない",
-                "short_past_affirmative": "やすかった",
-                "short_past_negative": "やすくなかった",
-                "conditional": "やすければ"
-            }
-        },
-            {
-            "adjective": "高い",
-            "type": "adjective",
-            "meaning": "expensive",
-            "forms": {
-                "present_affirmative": "たかいです",
-                "present_negative": "たかくありません",
-                "past_affirmative": "たかかったです",
-                "past_negative": "たかくありませんでした",
-                "short_present_affirmative": "たかい",
-                "short_present_negative": "たかくない",
-                "short_past_affirmative": "たかかった",
-                "short_past_negative": "たかくなかった",
-                "conditional": "たかければ"
-            }
-        },
-            {
-            "adjective": "大きい",
-            "type": "adjective",
-            "meaning": "big",
-            "forms": {
-                "present_affirmative": "おおきいです",
-                "present_negative": "おおきくありません",
-                "past_affirmative": "おおきかったです",
-                "past_negative": "おおきくありませんでした",
-                "short_present_affirmative": "おおきい",
-                "short_present_negative": "おおきくない",
-                "short_past_affirmative": "おおきかった",
-                "short_past_negative": "おおきくなかった",
-                "conditional": "おおきければ"
-            }
-        },
-            {
-            "adjective": "小さい",
-            "type": "adjective",
-            "meaning": "small",
-            "forms": {
-                "present_affirmative": "ちいさいです",
-                "present_negative": "ちいさくありません",
-                "past_affirmative": "ちいさかったです",
-                "past_negative": "ちいさくありませんでした",
-                "short_present_affirmative": "ちいさい",
-                "short_present_negative": "ちいさくない",
-                "short_past_affirmative": "ちいさかった",
-                "short_past_negative": "ちいさくなかった",
-                "conditional": "ちいさければ"
-            }
+        "short_form": {
+          "present_affirmative": "買い物する",
+          "present_negative": "買い物しない",
+          "past_affirmative": "買い物した",
+          "past_negative": "買い物しなかった",
+          "conditional_affirmative": "買い物すれば",
+          "conditional_negative": "買い物しなければ",
+          "conversational": {
+            "affirmative": "買い物すりゃー",
+            "negative": "買い物しなきゃー"
+          }
         }
-    ],
-    "surumeishi": [
-        {
-            "noun": "勉強",
-            "meaning": "to study",
-            "conjugations": {
-                "long_form": {
-                    "present_affirmative": "勉強します",
-                    "present_negative": "勉強しません",
-                    "past_affirmative": "勉強しました",
-                    "past_negative": "勉強しませんでした",
-                    "volitional": "勉強しましょう"
-                },
-                "short_form": {
-                    "present_affirmative": "勉強する",
-                    "present_negative": "勉強しない",
-                    "past_affirmative": "勉強した",
-                    "past_negative": "勉強しなかった",
-                    "conditional_affirmative": "勉強すれば",
-                    "conditional_negative": "勉強しなければ",
-                    "conversational": {
-                        "affirmative": "勉強すりゃー",
-                        "negative": "勉強しなきゃー"
-                    }
-                }
-            }
+      }
+    },
+    {
+      "noun": "料理",
+      "meaning": "cooking",
+      "conjugations": {
+        "long_form": {
+          "present_affirmative": "料理します",
+          "present_negative": "料理しません",
+          "past_affirmative": "料理しました",
+          "past_negative": "料理しませんでした",
+          "volitional": "料理しましょう"
         },
-        {
-            "noun": "買い物",
-            "meaning": "shopping",
-            "conjugations": {
-                "long_form": {
-                    "present_affirmative": "買い物します",
-                    "present_negative": "買い物しません",
-                    "past_affirmative": "買い物しました",
-                    "past_negative": "買い物しませんでした",
-                    "volitional": "買い物しましょう"
-                },
-                "short_form": {
-                    "present_affirmative": "買い物する",
-                    "present_negative": "買い物しない",
-                    "past_affirmative": "買い物した",
-                    "past_negative": "買い物しなかった",
-                    "conditional_affirmative": "買い物すれば",
-                    "conditional_negative": "買い物しなければ",
-                    "conversational": {
-                        "affirmative": "買い物すりゃー",
-                        "negative": "買い物しなきゃー"
-                    }
-                }
-            }
-        },
-        {
-            "noun": "料理",
-            "meaning": "cooking",
-            "conjugations": {
-                "long_form": {
-                    "present_affirmative": "料理します",
-                    "present_negative": "料理しません",
-                    "past_affirmative": "料理しました",
-                    "past_negative": "料理しませんでした",
-                    "volitional": "料理しましょう"
-                },
-                "short_form": {
-                    "present_affirmative": "料理する",
-                    "present_negative": "料理しない",
-                    "past_affirmative": "料理した",
-                    "past_negative": "料理しなかった",
-                    "conditional_affirmative": "料理すれば",
-                    "conditional_negative": "料理しなければ",
-                    "conversational": {
-                        "affirmative": "料理すりゃー",
-                        "negative": "料理しなきゃー"
-                    }
-                }
-            }
+        "short_form": {
+          "present_affirmative": "料理する",
+          "present_negative": "料理しない",
+          "past_affirmative": "料理した",
+          "past_negative": "料理しなかった",
+          "conditional_affirmative": "料理すれば",
+          "conditional_negative": "料理しなければ",
+          "conversational": {
+            "affirmative": "料理すりゃー",
+            "negative": "料理しなきゃー"
+          }
         }
-    ]
+      }
+    }
+  ]
 }
