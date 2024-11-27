@@ -281,7 +281,7 @@
       "meaning": "to listen",
       "plain_form": "きく",
       "long_form": "ききます",
-      "image": "assets/iimasu-g.jpg",
+      "image": "assets/kikimasu.jpg",
       "forms": {
         "nai_form": "きかない",
         "past_form": "きいた",
@@ -577,9 +577,10 @@
     {
       "verb": "出す",
       "type": "verb",
-      "meaning": "to take out / to send",
+      "meaning": "to send / to hand in",
       "plain_form": "だす",
       "long_form": "だします",
+      "image": "assets/dashimasu.jpg",
       "forms": {
         "nai_form": "ださない",
         "past_form": "だした",
