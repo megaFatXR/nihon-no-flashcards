@@ -38,7 +38,7 @@ const Flashcard = ({word}) => {
       backContent={
         <>
           <h2 className="card-title">
-            <span className={word.type}></span>
+            {/* <span className={word.type}></span> */}
             {word.long_form || word.adjective}
           </h2>
           {/* <p className="card-subtitles">Short Forms</p> */}
