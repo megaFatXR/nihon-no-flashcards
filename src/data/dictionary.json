@@ -18,7 +18,7 @@
         "long_past_form": "いました",
         "long_past_negative_form": "いませんでした",
         "long_volitional_form": "いましょう",
-        "eba_form": "いえば",
+        "eba_form": "いけば",
         "nakereba_form": "いかないければ",
         "tai_form": "いたい",
         "takunai_form": "いたくない",
@@ -43,11 +43,11 @@
         "long_past_form": "のました",
         "long_past_negative_form": "のませんでした",
         "long_volitional_form": "のましょう",
-        "eba_form": "のえば",
+        "eba_form": "のめば",
         "nakereba_form": "のまないければ",
-        "tai_form": "のたい",
-        "takunai_form": "のたくない",
-        "potential_form": "のえる"
+        "tai_form": "のみたい",
+        "takunai_form": "のみたくない",
+        "potential_form": "のめる"
       }
     },
     {
@@ -68,11 +68,11 @@
         "long_past_form": "はました",
         "long_past_negative_form": "はませんでした",
         "long_volitional_form": "はましょう",
-        "eba_form": "はえば",
-        "nakereba_form": "はかないければ",
-        "tai_form": "はたい",
-        "takunai_form": "はたくない",
-        "potential_form": "はえる"
+        "eba_form": "はけば",
+        "nakereba_form": "はかなければ",
+        "tai_form": "はきたい",
+        "takunai_form": "はきたくない",
+        "potential_form": "はける"
       }
     },
     {
@@ -93,11 +93,11 @@
         "long_past_form": "ぬました",
         "long_past_negative_form": "ぬませんでした",
         "long_volitional_form": "ぬましょう",
-        "eba_form": "ぬえば",
-        "nakereba_form": "ぬがないければ",
+        "eba_form": "ぬけば",
+        "nakereba_form": "ぬがなければ",
         "tai_form": "ぬたい",
         "takunai_form": "ぬたくない",
-        "potential_form": "ぬえる"
+        "potential_form": "ぬける"
       }
     },
     {
@@ -120,8 +120,8 @@
         "long_volitional_form": "かましょう",
         "eba_form": "かえば",
         "nakereba_form": "かわないければ",
-        "tai_form": "かたい",
-        "takunai_form": "かたくない",
+        "tai_form": "かいたい",
+        "takunai_form": "かいたくない",
         "potential_form": "かえる"
       }
     },

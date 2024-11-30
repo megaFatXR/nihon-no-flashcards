@@ -34,15 +34,6 @@
   font-size: 21px;
 }
 
-.card-title span {
-  width: 26px;
-  height: 26px;
-  margin-right: 12px;
-  border-radius: 100%;
-  display: inline-block;
-  top: 2px;
-    position: relative;
-}
 
 .card-title span.verb  {
   background-color: #13cb50;
@@ -59,14 +50,41 @@
   background-color: orange;
 }
 
-.card-list {
-  padding: 0;
+.card-header {
+  margin-bottom: 18px;
+  text-align: center;
 }
 
-.card-subtitles {
-  font-size: 13px;
-  width: 100%;
-  padding-left: 16px;
+.card-title {
+  margin: 0;
+}
+
+.card-subtitle {
+  font-size: 14px;
+  margin: 0;
+}
+
+.card-subtitle.adjective  {
+  color: #0076ff;
+}
+
+.card-subtitle.verb  {
+  color: #13cb50;
+}
+
+.card-subtitle span {
+  color: #222
+}
+
+.card-subtitle .separator {
+  width: 4px;
+  height: 4px;
+  border-radius: 100%;
+  background-color: #222;
+  display: inline-block;
+  top: -2px;
+  position: relative;
+  margin: 0 2px;
 }
 
 table {
@@ -81,6 +99,10 @@ table thead {
 
 thead.verb {
   background-color: #e3fbe7;
+}
+
+thead.adjective {
+  background-color: #cdefff;
 }
 
 table thead th {
@@ -101,11 +123,12 @@ table tr + tr {
 
 table td {
   position: relative;
-  font-size: 17px;
+  font-size: 16px;
   text-align: center;
   flex-grow: 1;
   min-width: 50%;
-  padding: 6px 0;
+  padding: 6px 0 6px 18px;
+  box-sizing: border-box;
 }
 
 table td + td {
